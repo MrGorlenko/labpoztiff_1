@@ -1,0 +1,52 @@
+.description{
+    height: 700px;
+    &__title{
+        padding-top: 50px;
+    }
+    &__block{
+        height: 250px;
+        width: 50%;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Gotham Pro Narrow Medium';
+        font-size: 25px;
+        span{
+            display: block;
+            width: 490px;
+        }
+        &s{
+            height: 500px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        &:first-child{
+            // background: red;
+            background-image: url('../../img/decription/planette1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: 140px;
+        }
+        &:nth-child(2){
+            background-image: url('../../img/decription/money.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: 140px;
+        }
+        &:nth-child(3){
+            background-image: url('../../img/decription/rain.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: 140px;
+        }
+        &:nth-child(4){
+            background-image: url('../../img/decription/king.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: 140px;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'Gilam';
+    src: local('Gilam Black'), local('Gilam-Black'),
+        url('fonts/Gilam-BlackDEMO.woff2') format('woff2'),
+        url('fonts/Gilam-BlackDEMO.woff') format('woff'),
+        url('fonts/Gilam-BlackDEMO.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Gilam-regular';
+    src: local('Gilam Black'), local('Gilam-Black'),
+        url('fonts/Gilam-BlackDEMO.woff2') format('woff2'),
+        url('fonts/Gilam-BlackDEMO.woff') format('woff'),
+        url('fonts/Gilam-BlackDEMO.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Gilam-italic';
+    src: local('Gilam Thin Italic'), local('Gilam-Thin-Italic'),
+        url('fonts/Gilam-ThinItalicDEMO.woff2') format('woff2'),
+        url('fonts/Gilam-ThinItalicDEMO.woff') format('woff'),
+        url('fonts/Gilam-ThinItalicDEMO.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Cisco Sans';
+    src: local('Cisco Sans Regular'), local('Cisco-Sans-Regular'),
+        url('fonts/CiscoSans.woff2') format('woff2'),
+        url('fonts/CiscoSans.woff') format('woff'),
+        url('fonts/CiscoSans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url('fonts/GothamPro-Bold.eot');
+    src: url('fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamPro-Bold.woff') format('woff'),
+    url('fonts/GothamPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+  @font-face {
+    font-family: 'Gotham Pro Black';
+    src: url('fonts/GothamPro-Black.eot');
+    src: url('fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamPro-Black.woff') format('woff'),
+    url('fonts/GothamPro-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+  @font-face {
+    font-family: 'Gotham Pro Narrow Medium';
+    src: url('fonts/GothamProNarrow-Medium.eot');
+    src: url('fonts/GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamProNarrow-Medium.woff') format('woff'),
+    url('fonts/GothamProNarrow-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+      

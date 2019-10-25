@@ -1,0 +1,33 @@
+.information{
+    height: 600px;
+    background-image: url('../../img/luxfon.com_18998.jpg');
+    background-size: cover;
+    background-position-y: 605px;
+    &__title{
+        padding-top: 50px;
+        font-family: 'Poppins';
+        background: transparent;
+        // color: black;
+        color: #f4f4f4;
+        position: relative;
+        font-size: 40px;
+        width: 48%;
+        margin: auto;
+    }
+    &__list{
+        position: relative;
+        // color: black;
+        color: #f4f4f4;
+        // color: darken($color: #f4f4f4, $amount: 50);
+        font-size: 22px;
+        // display: flex;
+        // flex-wrap: wrap;
+        margin-top: 65px;
+        &-element{
+        margin-bottom: 20px;
+        width: 60%;
+        font-family: 'Lobster', cursive;
+        font-size: 26px;
+        }
+    }
+}

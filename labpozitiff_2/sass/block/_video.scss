@@ -1,0 +1,10 @@
+.video{
+    height: 450px;
+    &__content{
+        width: 700px;
+        height: 400px;
+        background-color: black;
+        margin: auto;
+        margin-top: 40px;
+    }
+}

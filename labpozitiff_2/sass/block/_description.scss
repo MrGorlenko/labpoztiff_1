@@ -1,0 +1,106 @@
+.description{
+    height: 700px;
+    background-color: #f4f4f4;
+    &__title{
+        padding-top: 50px;
+        font-family: 'Poppins';
+        background: transparent;
+        // color: black;
+        color: #696868;
+        // color: #fa9bfa;
+        position: relative;
+        font-size: 40px;
+        width: 60%;
+        margin: auto;
+    }
+    &__block{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    &__element{
+        height: 400px;
+        width: 20%;
+        background: black;
+        background-size: cover;
+        &:first-child{
+            background-image: url('../../img/priroda-big-1154x770.jpg.pagespeed.ce.Vvq9PUOkDY.jpg');
+            background-position-x: -95px;
+            background-position-y: -270px;
+            background-size: contain;
+        }
+        &:nth-child(2){
+            position: relative;
+            height: 450px;
+            background-image: url('../../img/pic-2.jpg');
+            background-size: cover;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:before{
+                position: absolute;
+                content: "";
+                height: 100%;
+                width: 100%;
+                background: rgba(0, 0, 0, .55);
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
+        &:last-child{
+            background-image: url('../../img/pic-4.jpg');
+        }
+    }
+    &__list{
+        position: relative;
+        // color: white;
+        // color: #facafa;
+        // color: #696868;
+        color: #f4f4f4;
+        font-size: 22px;
+        &-element{
+        margin-bottom: 20px;
+        }
+    }
+}
+
+.desc{
+    &__block{
+        height: 100%;
+        width: 24%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &s{
+            height: 350px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+
+        }
+        &-img{
+            width: 97%;
+            height: 180px;
+            background-image: url('../../img/priroda-big-1154x770.jpg.pagespeed.ce.Vvq9PUOkDY.jpg');
+            background-size: cover;
+            &-two{
+                background-image: url('../../img/pic-2.jpg');
+            }
+            &-three{
+                background-image: url('../../img/s1200.jpg');
+            }
+            &-four{
+                background-image: url('../../img/pic-4.jpg');
+            }
+        }
+        span{
+            display: block;
+            margin-top: 40px;
+        }
+    }
+}

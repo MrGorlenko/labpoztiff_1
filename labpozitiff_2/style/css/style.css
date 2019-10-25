@@ -488,7 +488,7 @@ img {
 .hero__title {
   font-family: 'Poppins';
   background: transparent;
-  color: #fff;
+  color: #f4f4f4;
   position: relative;
   font-size: 40px;
   width: 70%;
@@ -536,7 +536,7 @@ img {
 
 .hero__button span {
   font-family: 'Poppins';
-  color: white;
+  color: #f4f4f4;
   font-size: 35px;
   text-transform: uppercase;
 }
@@ -572,7 +572,7 @@ img {
 .heading__text h2 {
   position: relative;
   font-family: 'Lobster', cursive;
-  color: #fff;
+  color: #f4f4f4;
   text-align: center;
   width: 60%;
   margin: auto;
@@ -618,7 +618,7 @@ img {
   background-image: url("../../img/priroda-big-1154x770.jpg.pagespeed.ce.Vvq9PUOkDY.jpg");
   background-position-x: -95px;
   background-position-y: -270px;
-  background-size: contain;
+  background-size: auto;
 }
 
 .description__element:nth-child(2) {

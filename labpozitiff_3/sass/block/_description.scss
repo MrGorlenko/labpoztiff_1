@@ -1,0 +1,191 @@
+.description{
+    /* Блочная модель */
+    height: 700px;
+    /* Оформление */
+    background-color: #f4f4f4;
+    &__title{
+        /* Позиционирование */
+        position: relative;
+        /* Блочная модель */
+        margin: auto;
+        width: 60%;
+        padding-top: 50px;
+        /* Оформление */
+        background: transparent;
+        color: #696868;
+        /* Типографика */
+        font-family: 'Poppins';
+        font-size: 40px;
+        font-weight: 500;
+    }
+    &__block{
+        /* Блочная модель */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
+    &__element{
+        /* Блочная модель */
+        width: 20%;
+        height: 400px;
+        /* Оформление */
+        background: black;
+        background-size: cover;
+        &:first-child{
+            /* Позиционирование */
+            position: relative;
+            /* Оформление */
+            background-image: url('../../img/description/desc-left.jpg');
+            background-size: cover;
+            background-position: bottom;
+            &:before{
+                /* Позиционирование */
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                /* Блочная модель */
+                content: "";
+                height: 100%;
+                width: 100%;
+                /* Оформление */
+                background: linear-gradient(0deg, rgba(206, 212, 237, 0.3), rgba(206, 212, 237, 0.3));
+            }
+        }
+        &:nth-child(2){
+            /* Позиционирование */
+            position: relative;
+            /* Блочная модель */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            height: 450px;
+            /* Оформление */
+            background-image: url('../../img/description/desc-middle.jpg');
+            background-size: cover;
+            background-position: bottom;
+            &:before{
+                /* Позиционирование */
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                /* Блочная модель */
+                content: "";
+                height: 100%;
+                width: 100%;
+                /* Оформление */
+                background: linear-gradient(0deg, rgba(206, 212, 237, 0.3), rgba(206, 212, 237, 0.3));
+            }
+        }
+        &:last-child{
+            /* Позиционирование */
+            position: relative;
+            /* Оформление */
+            background-image: url('../../img/description/decs-right.jpg');
+            &:before{
+                /* Позиционирование */
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                /* Блочная модель */
+                content: "";
+                height: 100%;
+                width: 100%;
+                /* Оформление */
+                background: linear-gradient(0deg, rgba(206, 212, 237, 0.3), rgba(206, 212, 237, 0.3));
+            }
+            
+            
+        }
+    }
+    &__list{
+        /* Позиционирование */
+        position: relative;
+        /* Блочная модель */
+        width: 90%;
+        /* Оформление */
+        color: #f4f4f4;
+        /* Типографика */
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Poppins';
+        &-element{
+            /* Блочная модель */
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+// До 992px
+@media (max-width: 992px){
+    .description{
+        &__title{
+            /* Типографика */
+            text-align: center;
+            font-size: 38px;
+        }
+        &__element{
+            &:first-child{
+                /* Блочная модель */
+                display: none;
+                }
+            &:nth-child(2){
+                /* Блочная модель */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 450px;
+                }
+            &:last-child{
+                /* Блочная модель */
+                display: none;
+                }
+            }
+    }
+}
+
+
+// До 670px
+@media (max-width: 670px){
+    .description{
+        &__title{
+            /* Блочная модель */
+            width: 90%;
+            padding-top: 30px;
+        }
+    }
+}
+
+
+// До 410px
+@media (max-width: 410px){
+    .description{
+        /* Блочная модель */
+        height: 580px;
+        &__title{
+            /* Типографика */
+            font-size: 22px;
+        }
+        &__element{
+            &:nth-child(2){
+                /* Блочная модель */
+            height: 380px;
+            }
+        }
+        &__list{
+            &-element{
+                /* Типографика */
+                font-size: 17px;
+            }
+        }
+    }
+}

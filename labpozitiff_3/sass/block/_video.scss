@@ -1,0 +1,47 @@
+.video{
+    /* Блочная модель */
+    height: 450px;
+    /* Оформление */
+    background-color: #F4F4F4;
+    &__container{
+        /* Блочная модель */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    &__content{
+        /* Блочная модель */
+        width: 700px;
+        height: 400px;
+        margin: auto;
+        padding-top: 40px;
+        /* Оформление */
+        background-color: black;
+    }
+}
+
+
+// До 992px
+@media (max-width: 992px){
+    .video{
+        &__content{
+            /* Блочная модель */
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+
+
+// До 410px
+@media (max-width: 410px){
+    .video{
+        /* Блочная модель */
+        height: 260px;
+        &__content{
+            /* Блочная модель */
+            height: 170px;
+        }
+    }
+}

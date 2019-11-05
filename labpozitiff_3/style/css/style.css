@@ -1,0 +1,1317 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.container__two {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+
+.section__title {
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  margin: auto;
+  font-family: 'Gotham Pro Bold';
+  text-transform: uppercase;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    width: 950px;
+  }
+  .section__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 550px;
+  }
+}
+
+@media (max-width: 670px) {
+  .container {
+    width: 400px;
+  }
+  .section__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 410px) {
+  .container {
+    width: 300px;
+  }
+  .section__title {
+    font-size: 22px;
+  }
+}
+
+@font-face {
+  font-family: 'Gilam';
+  src: local("Gilam Black"), local("Gilam-Black"), url("fonts/Gilam-BlackDEMO.woff2") format("woff2"), url("fonts/Gilam-BlackDEMO.woff") format("woff"), url("fonts/Gilam-BlackDEMO.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilam-regular';
+  src: local("Gilam Black"), local("Gilam-Black"), url("fonts/Gilam-BlackDEMO.woff2") format("woff2"), url("fonts/Gilam-BlackDEMO.woff") format("woff"), url("fonts/Gilam-BlackDEMO.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilam-italic';
+  src: local("Gilam Thin Italic"), local("Gilam-Thin-Italic"), url("fonts/Gilam-ThinItalicDEMO.woff2") format("woff2"), url("fonts/Gilam-ThinItalicDEMO.woff") format("woff"), url("fonts/Gilam-ThinItalicDEMO.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cisco Sans';
+  src: local("Cisco Sans Regular"), local("Cisco-Sans-Regular"), url("fonts/CiscoSans.woff2") format("woff2"), url("fonts/CiscoSans.woff") format("woff"), url("fonts/CiscoSans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Bold';
+  src: url("fonts/GothamPro-Bold.eot");
+  src: url("fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro-Bold.woff") format("woff"), url("fonts/GothamPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Black';
+  src: url("fonts/GothamPro-Black.eot");
+  src: url("fonts/GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro-Black.woff") format("woff"), url("fonts/GothamPro-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Narrow Medium';
+  src: url("fonts/GothamProNarrow-Medium.eot");
+  src: url("fonts/GothamProNarrow-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/GothamProNarrow-Medium.woff") format("woff"), url("fonts/GothamProNarrow-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  padding: 120px 0;
+  width: 100%;
+  height: 700px;
+  /* Оформление */
+  background-image: url("../../img/hero/hero-pic.jpg");
+  background-size: cover;
+}
+
+.hero:before {
+  /* Позиционирование */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Блочная модель */
+  height: 100%;
+  width: 100%;
+  content: "";
+  /* Оформление */
+  background: rgba(177, 182, 240, 0.4);
+}
+
+.hero__title {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  width: 90%;
+  /* Оформление */
+  background: transparent;
+  color: #dadada;
+  /* Типографика */
+  font-family: 'Poppins';
+  font-size: 48px;
+}
+
+.hero__heading {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  display: inline-block;
+  margin-top: 90px;
+}
+
+.hero__middle {
+  /* Блочная модель */
+  margin-top: 55px;
+  margin-bottom: 100px;
+}
+
+.hero__middle h2 {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  margin: auto;
+  width: 80%;
+  /* Оформление */
+  color: #dadada;
+  /* Типографика */
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.hero__link {
+  /* Блочная модель */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  /* Типография */
+  text-decoration: none;
+}
+
+.hero__button {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  /* Оформление */
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid rgba(171, 57, 77, 0.7);
+  cursor: pointer;
+  /* Анимация */
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hero__button:hover {
+  /* Оформление */
+  background: black;
+  opacity: 0.7;
+  /* Анимация */
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hero__button span {
+  /* Оформление */
+  color: rgba(255, 254, 254, 0.97);
+  /* Типографика */
+  font-family: 'Poppins';
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.tp {
+  /* Позиционирование */
+  position: absolute;
+  top: -15px;
+  right: 0;
+  left: 0;
+  bottom: 115px;
+  /* Блочная модель */
+  margin: auto;
+  width: 80%;
+  height: 2px;
+  /* Оформление */
+  background: #AB394D;
+}
+
+.tb {
+  /* Позиционирование */
+  position: absolute;
+  top: 130px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* Блочная модель */
+  margin: auto;
+  width: 80%;
+  height: 2px;
+  /* Оформление */
+  background: #AB394D;
+}
+
+.heading__text {
+  /* Блочная модель */
+  margin-top: 55px;
+}
+
+.heading__text h2 {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  margin: auto;
+  width: 60%;
+  /* Оформление */
+  color: #f4f4f4;
+  /* Типографика */
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 27px;
+}
+
+@media (max-width: 1250px) {
+  .hero {
+    /* Блочная модель */
+    height: 700px;
+  }
+  .hero__title {
+    /* Блочная модель */
+    width: 100%;
+    /* Типографика */
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__title {
+    /* Блочная модель */
+    width: 100%;
+    /* Типографика */
+    font-size: 35px;
+  }
+  .hero__middle {
+    /* Блочная модель */
+    margin-bottom: 50px;
+  }
+  .hero__middle h2 {
+    /* Блочная модель */
+    width: 100%;
+    /* Типографика */
+    font-size: 28px;
+    font-weight: 100;
+  }
+  .hero__button {
+    /* Блочная модель */
+    width: 250px;
+    height: 60px;
+  }
+  .hero__button span {
+    /* Типографика */
+    font-size: 25px;
+  }
+  .tp {
+    /* Позиционирование */
+    top: -95px;
+  }
+  .tb {
+    /* Позиционирование */
+    top: 190px;
+  }
+}
+
+@media (max-width: 670px) {
+  .hero {
+    /* Блочная модель */
+    height: 620px;
+    padding: 60px 0;
+  }
+  .hero__title {
+    /* Типографика */
+    font-size: 28px;
+  }
+  .hero__middle {
+    /* Блочная модель */
+    margin-bottom: 50px;
+  }
+  .hero__middle h2 {
+    /* Блочная модель */
+    width: 100%;
+    /* Типографика */
+    font-size: 23px;
+    font-weight: 100;
+  }
+  .tp {
+    /* Позиционирование */
+    top: -40px;
+  }
+  .tb {
+    /* Позиционирование */
+    top: 150px;
+  }
+}
+
+@media (max-width: 410px) {
+  .hero {
+    /* Блочная модель */
+    height: 560px;
+  }
+  .hero__title {
+    /* Типографика */
+    font-size: 22px;
+  }
+  .hero__middle {
+    /* Блочная модель */
+    margin-bottom: 50px;
+  }
+  .hero__middle h2 {
+    /* Блочная модель */
+    width: 100%;
+    /* Типографика */
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .tp {
+    /* Позиционирование */
+    top: 10px;
+  }
+  .tb {
+    /* Позиционирование */
+    top: 100px;
+  }
+}
+
+.description {
+  /* Блочная модель */
+  height: 700px;
+  /* Оформление */
+  background-color: #f4f4f4;
+}
+
+.description__title {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  margin: auto;
+  width: 60%;
+  padding-top: 50px;
+  /* Оформление */
+  background: transparent;
+  color: #696868;
+  /* Типографика */
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.description__block {
+  /* Блочная модель */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.description__element {
+  /* Блочная модель */
+  width: 20%;
+  height: 400px;
+  /* Оформление */
+  background: black;
+  background-size: cover;
+}
+
+.description__element:first-child {
+  /* Позиционирование */
+  position: relative;
+  /* Оформление */
+  background-image: url("../../img/description/desc-left.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.description__element:first-child:before {
+  /* Позиционирование */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Блочная модель */
+  content: "";
+  height: 100%;
+  width: 100%;
+  /* Оформление */
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(206, 212, 237, 0.3)), to(rgba(206, 212, 237, 0.3)));
+  background: linear-gradient(0deg, rgba(206, 212, 237, 0.3), rgba(206, 212, 237, 0.3));
+}
+
+.description__element:nth-child(2) {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  height: 450px;
+  /* Оформление */
+  background-image: url("../../img/description/desc-middle.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.description__element:nth-child(2):before {
+  /* Позиционирование */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Блочная модель */
+  content: "";
+  height: 100%;
+  width: 100%;
+  /* Оформление */
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(206, 212, 237, 0.3)), to(rgba(206, 212, 237, 0.3)));
+  background: linear-gradient(0deg, rgba(206, 212, 237, 0.3), rgba(206, 212, 237, 0.3));
+}
+
+.description__element:last-child {
+  /* Позиционирование */
+  position: relative;
+  /* Оформление */
+  background-image: url("../../img/description/decs-right.jpg");
+}
+
+.description__element:last-child:before {
+  /* Позиционирование */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Блочная модель */
+  content: "";
+  height: 100%;
+  width: 100%;
+  /* Оформление */
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(206, 212, 237, 0.3)), to(rgba(206, 212, 237, 0.3)));
+  background: linear-gradient(0deg, rgba(206, 212, 237, 0.3), rgba(206, 212, 237, 0.3));
+}
+
+.description__list {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  width: 90%;
+  /* Оформление */
+  color: #f4f4f4;
+  /* Типографика */
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+
+.description__list-element {
+  /* Блочная модель */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .description__title {
+    /* Типографика */
+    text-align: center;
+    font-size: 38px;
+  }
+  .description__element:first-child {
+    /* Блочная модель */
+    display: none;
+  }
+  .description__element:nth-child(2) {
+    /* Блочная модель */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 450px;
+  }
+  .description__element:last-child {
+    /* Блочная модель */
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .description__title {
+    /* Блочная модель */
+    width: 90%;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 410px) {
+  .description {
+    /* Блочная модель */
+    height: 580px;
+  }
+  .description__title {
+    /* Типографика */
+    font-size: 22px;
+  }
+  .description__element:nth-child(2) {
+    /* Блочная модель */
+    height: 380px;
+  }
+  .description__list-element {
+    /* Типографика */
+    font-size: 17px;
+  }
+}
+
+.form {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  height: 550px;
+  /* Оформление */
+  background-image: url("../../img/form/form-pic.jpg");
+  background-position-y: 975px;
+}
+
+.form:before {
+  /* Позиционирование */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Блочная модель */
+  content: "";
+  height: 100%;
+  width: 100%;
+  /* Оформление */
+  background: rgba(206, 212, 237, 0.3);
+}
+
+.form__container {
+  /* Блочная модель */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.form__title {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  width: 75%;
+  /* Типографика */
+  font-family: 'Poppins';
+  color: #3E2525;
+  font-size: 40px;
+}
+
+.form__title-block {
+  /* Блочная модель */
+  padding-top: 50px;
+}
+
+.form__subtitle {
+  /* Блочная модель */
+  margin-bottom: 10px;
+  margin-top: 20px;
+  /* Типографика */
+  font-family: 'Poppins';
+  color: #3E2525;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form__block input {
+  outline: none;
+}
+
+.form__form {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 430px;
+  height: 320px;
+  margin: auto;
+  margin-top: 25px;
+  /* Оформление */
+  border-top: 3px solid #AB394D;
+}
+
+.form__input {
+  /* Блочная модель */
+  width: 200px;
+  height: 35px;
+  padding-left: 5px;
+  /* Оформление */
+  border-radius: 5px;
+}
+
+.form__button {
+  /* Блочная модель */
+  width: 200px;
+  height: 35px;
+  /* Оформление */
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #660066;
+  border: none;
+  /* Типографика */
+  color: #fff;
+}
+
+.form__button:hover {
+  /* Оформление */
+  background-color: #4d004d;
+}
+
+@media (max-width: 992px) {
+  .form__title {
+    /* Блочная модель */
+    width: 65%;
+    /* Типографика */
+    font-size: 38px;
+    font-weight: 500;
+    text-transform: inherit;
+  }
+  .form__subtitle {
+    /* Типографика */
+    font-size: 25px;
+  }
+  .form__form {
+    /* Блочная модель */
+    height: 370px;
+  }
+  .form__block input {
+    /* Блочная модель */
+    width: 250px;
+    height: 60px;
+    padding-left: 20px;
+  }
+  .form__button {
+    /* Блочная модель */
+    width: 250px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 670px) {
+  .form {
+    /* Блочная модель */
+    height: 670px;
+  }
+  .form__title {
+    /* Блочная модель */
+    width: 100%;
+  }
+  .form__form {
+    /* Блочная модель */
+    width: 390px;
+  }
+}
+
+@media (max-width: 410px) {
+  .form {
+    /* Блочная модель */
+    height: 580px;
+  }
+  .form__title {
+    /* Типографика */
+    font-size: 22px;
+    /* Блочная модель */
+    margin-bottom: 20px;
+  }
+  .form__subtitle {
+    /* Типографика */
+    font-size: 22px;
+  }
+  .form__form {
+    /* Блочная модель */
+    width: 300px;
+  }
+}
+
+.information {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  height: 600px;
+  /* Оформление */
+  background-image: url("../../img/information/info-pic.jpg");
+  background-size: cover;
+  background-position-y: 605px;
+}
+
+.information:before {
+  /* Позиционирование */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Блочная модель */
+  content: "";
+  height: 100%;
+  width: 100%;
+  /* Оформление */
+  background: rgba(206, 212, 237, 0.48);
+}
+
+.information__title {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  /* Оформление */
+  font-family: 'Poppins';
+  background: transparent;
+  color: #3E2525;
+  /* Типографика */
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.information__list {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
+  margin-top: 65px;
+  /* Оформление */
+  color: #3E2525;
+  /* Типографика */
+  font-size: 22px;
+}
+
+.information__list-element {
+  /* Блочная модель */
+  width: 90%;
+  margin-bottom: 20px;
+  /* Типографика */
+  font-family: 'Poppins';
+  font-size: 30px;
+}
+
+@media (max-width: 992px) {
+  .information {
+    /* Блочная модель */
+    height: 605px;
+  }
+  .information__title {
+    /* Блочная модель */
+    width: 60%;
+    padding-top: 40px;
+    /* Типографика */
+    font-size: 38px;
+  }
+  .information__list {
+    /* Блочная модель */
+    margin-top: 40px;
+  }
+  .information__list-element {
+    /* Типографика */
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 670px) {
+  .information {
+    /* Блочная модель */
+    height: 750px;
+    /* Оформление */
+    background-position-y: 0;
+  }
+  .information__title {
+    /* Блочная модель */
+    width: 90%;
+  }
+  .information__list-element {
+    /* Блочная модель */
+    width: 100%;
+  }
+}
+
+@media (max-width: 410px) {
+  .information {
+    /* Блочная модель */
+    height: 540px;
+  }
+  .information__title {
+    /* Типографика */
+    font-size: 22px;
+  }
+  .information__list-element {
+    /* Типографика */
+    font-size: 17px;
+  }
+}
+
+.video {
+  /* Блочная модель */
+  height: 450px;
+  /* Оформление */
+  background-color: #F4F4F4;
+}
+
+.video__container {
+  /* Блочная модель */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.video__content {
+  /* Блочная модель */
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  padding-top: 40px;
+  /* Оформление */
+  background-color: black;
+}
+
+@media (max-width: 992px) {
+  .video__content {
+    /* Блочная модель */
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 410px) {
+  .video {
+    /* Блочная модель */
+    height: 260px;
+  }
+  .video__content {
+    /* Блочная модель */
+    height: 170px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,8 +1,23 @@
 .information{
     height: 600px;
-    background-image: url('../../img/luxfon.com_18998.jpg');
+    // background-image: url('../../img/luxfon.com_18998.jpg');
+    background-image: url('../../img/spac-234.jpg');
     background-size: cover;
     background-position-y: 605px;
+    position: relative;
+    &:before{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        // background: rgba(0, 0, 0, .55);
+        // background: rgba(59, 72, 217, 0.4);
+        background: rgba(93, 113, 194, 0.3);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
     &__title{
         padding-top: 50px;
         font-family: 'Poppins';

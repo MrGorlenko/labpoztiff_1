@@ -24,16 +24,35 @@
         width: 20%;
         background: black;
         background-size: cover;
+        
         &:first-child{
-            background-image: url('../../img/priroda-big-1154x770.jpg.pagespeed.ce.Vvq9PUOkDY.jpg');
+            // background-image: url('../../img/priroda-big-1154x770.jpg.pagespeed.ce.Vvq9PUOkDY.jpg');
+            background-image: url('../../img/space-2.jpg');
             background-position-x: -95px;
             background-position-y: -270px;
             background-size: auto;
+            position: relative;
+            &:before{
+                position: absolute;
+                content: "";
+                height: 100%;
+                width: 100%;
+                // background: rgba(0, 0, 0, .55);
+                // background: rgba(59, 72, 217, 0.4);
+                background: rgba(93, 113, 194, 0.3);
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
         }
         &:nth-child(2){
             position: relative;
             height: 450px;
-            background-image: url('../../img/pic-2.jpg');
+            // background-image: url('../../img/pic-2.jpg');
+            background-image: url('../../img/04ccd35091c2ad689c210aa618483e19.jpg');
+            // background-image: url('../../img/space-2.jpg');
+            background-position-x: -90px;
             background-size: cover;
             width: 40%;
             display: flex;
@@ -44,7 +63,9 @@
                 content: "";
                 height: 100%;
                 width: 100%;
-                background: rgba(0, 0, 0, .55);
+                // background: rgba(0, 0, 0, .55);
+                // background: rgba(59, 72, 217, 0.4);
+                background: rgba(93, 113, 194, 0.3);
                 top: 0;
                 left: 0;
                 right: 0;
@@ -52,7 +73,25 @@
             }
         }
         &:last-child{
-            background-image: url('../../img/pic-4.jpg');
+            // background-image: url('../../img/pic-4.jpg');
+            background-image: url('../../img/space-2.jpg');
+            background-position-x: -480px;
+            position: relative;
+            &:before{
+                position: absolute;
+                content: "";
+                height: 100%;
+                width: 100%;
+                // background: rgba(0, 0, 0, .55);
+                // background: rgba(59, 72, 217, 0.4);
+                background: rgba(93, 113, 194, 0.3);
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            
+            
         }
     }
     &__list{

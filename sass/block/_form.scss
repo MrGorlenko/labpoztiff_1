@@ -1,48 +1,174 @@
 .form{
-    width: 100%;
-    height: 620px;
-    background-image: url('../../img/space-2.jpg');
+    /* Позиционирование */
+    position: relative;
+    /* Блочная модель */
+    height: 550px;
+    /* Оформление */
+    background-image: url('../../img/form/form-pic.jpg');
+    background-position-y: 975px;
+    &:before{
+        /* Позиционирование */
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* Блочная модель */
+        content: "";
+        height: 100%;
+        width: 100%;
+        /* Оформление */
+        background: rgba(206, 212, 237, 0.3);;
+    }
+    &__container{
+        /* Блочная модель */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
     &__title{
-        background-color: rgba(255, 255, 255, 0.2);
-        border-radius: 10px;
-        font-family: 'Gotham Pro Bold';
+        /* Позиционирование */
+        position: relative;
+        /* Блочная модель */
+        width: 75%;
+        /* Типографика */
+        font-family: 'Poppins';
+        color: #3E2525;
+        font-size: 40px;
         &-block{
+            /* Блочная модель */
             padding-top: 50px;
         }
     }
     &__subtitle{
-        font-size: 30px;
+        /* Блочная модель */
         margin-bottom: 10px;
-        margin-top: 28px;
+        margin-top: 20px;
+        /* Типографика */
+        font-family: 'Poppins';
+        color: #3E2525;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__block{
+        input{
+            outline: none;
+        }
     }
     &__form{
-        margin: auto;
+        /* Позиционирование */
+        position: relative;
+        /* Блочная модель */
         display: flex;
-        width: 430px;
-        justify-content: center;
-        background-color: rgba(255, 255, 255, 0.2);
-        border-radius: 10px;
-        margin-top: 65px;
-        height: 300px;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        width: 430px;
+        height: 320px;
+        margin: auto;
+        margin-top: 25px;
+        /* Оформление */
+        border-top: 3px solid #AB394D;
     }
     &__input{
+        /* Блочная модель */
         width: 200px;
         height: 35px;
-        border-radius: 5px;
         padding-left: 5px;
+        /* Оформление */
+        border-radius: 5px;
     }
     &__button{
+        /* Блочная модель */
         width: 200px;
         height: 35px;
+        /* Оформление */
         border-radius: 5px;
         cursor: pointer;
         background-color: #660066;
         border: none;
+        /* Типографика */
+        color: #fff;
         &:hover{
-            background-color: #6500ee;
+            /* Оформление */
+            background-color: darken($color: #660066, $amount: 5)
+        }
+    }
+}
+
+
+// До 992px
+@media (max-width: 992px){
+    .form{
+        &__title{
+            /* Блочная модель */
+            width: 65%;
+            /* Типографика */
+            font-size: 38px;
+            font-weight: 500;
+            text-transform: inherit;
+        }
+        &__subtitle{
+            /* Типографика */
+            font-size: 25px;
+        }
+        &__form{
+            /* Блочная модель */
+            height: 370px;
+        }
+        &__block{
+            input{
+                /* Блочная модель */
+                width: 250px;
+                height: 60px;
+                padding-left: 20px;
+            }
+        }
+        &__button{
+            /* Блочная модель */
+            width: 250px;
+            height: 60px;
+        }
+    }
+}
+
+
+// До 670px
+@media (max-width: 670px){
+    .form{
+        /* Блочная модель */
+        height: 670px;
+        &__title{
+            /* Блочная модель */
+            width: 100%;
+        }
+        &__form{
+            /* Блочная модель */
+            width: 390px;
+        }
+    }
+}
+
+// До 410px
+@media (max-width: 410px){
+    .form{
+        /* Блочная модель */
+        height: 580px;
+        &__title{
+            /* Типографика */
+            font-size: 22px;
+            /* Блочная модель */
+            margin-bottom: 20px;
+        }
+        &__subtitle{
+            /* Типографика */
+            font-size: 22px;
+        }
+        &__form{
+            /* Блочная модель */
+            width: 300px;
         }
     }
 }

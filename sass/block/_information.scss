@@ -1,0 +1,122 @@
+.information{
+    /* Позиционирование */
+    position: relative;
+    /* Блочная модель */
+    height: 600px;
+    /* Оформление */
+    background-image: url('../../img/information/info-pic.jpg');
+    background-size: cover;
+    background-position-y: 605px;
+    &:before{
+        /* Позиционирование */
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* Блочная модель */
+        content: "";
+        height: 100%;
+        width: 100%;
+        /* Оформление */
+        background: rgba(206, 212, 237, 0.48);
+    }
+    &__title{
+        /* Позиционирование */
+        position: relative;
+        /* Блочная модель */
+        width: 80%;
+        margin: auto;
+        padding-top: 50px;
+        /* Оформление */
+        font-family: 'Poppins';
+        background: transparent;
+        color: #3E2525;
+        /* Типографика */
+        text-align: center;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    &__list{
+        /* Позиционирование */
+        position: relative;
+        /* Блочная модель */
+        margin-top: 65px;
+        /* Оформление */
+        color: #3E2525;
+        /* Типографика */
+        font-size: 22px;
+        &-element{
+        /* Блочная модель */
+        width: 90%;
+        margin-bottom: 20px;
+        /* Типографика */
+        font-family: 'Poppins';
+        font-size: 30px;
+        }
+    }
+}
+
+
+// До 992px
+@media (max-width: 992px){
+    .information{
+        /* Блочная модель */
+        height: 605px;
+        &__title{
+            /* Блочная модель */
+            width: 60%;
+            padding-top: 40px;
+            /* Типографика */
+            font-size: 38px;
+        }
+        &__list{
+            /* Блочная модель */
+            margin-top: 40px;
+            &-element{
+                /* Типографика */
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+
+// До 670px
+@media (max-width: 670px){
+    .information{
+        /* Блочная модель */
+        height: 750px;
+        /* Оформление */
+        background-position-y: 0;
+        &__title{
+            /* Блочная модель */
+            width: 90%;
+        }
+        &__list{
+            &-element{
+                /* Блочная модель */
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+// До 410px
+@media (max-width: 410px){
+    .information{
+        /* Блочная модель */
+        height: 540px;
+        &__title{
+            /* Типографика */
+            font-size: 22px;
+        }
+        &__list{
+            &-element{
+                /* Типографика */
+                font-size: 17px;
+            }
+        }
+    }
+}

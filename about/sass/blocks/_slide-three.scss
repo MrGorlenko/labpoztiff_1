@@ -1,0 +1,12 @@
+.slide{
+    &__item{
+        &-three{
+            /* Оформление */
+            background: linear-gradient(180deg, rgba(78, 24, 77, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+            p{
+                margin-top: 4px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,47 @@
+.slide{
+    &__item{
+        &-five{
+            /* Оформление */
+            background: linear-gradient(180deg, rgba(241, 116, 240, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+        }
+    }
+    &__five{
+        &-title{
+            /* Позиционирование */
+            position: absolute;
+            z-index: 2;
+            /* Блочная модель */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            h2{
+                /* Позиционирование */
+                z-index: 2;
+                /* Блочная модель */
+                width: 600px;
+                /* Типография */
+                font-size: 42px;
+                line-height: 56px;
+                font-weight: 100;
+                font-style: italic;
+                position: absolute;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width:1300px){
+    .slide{
+        &__item{
+            &-five{
+                p{
+                    // margin-top: 250px;
+                    &:first-child{
+                        margin-top: 250px;
+                    }
+                }
+            }
+        }
+    }
+}

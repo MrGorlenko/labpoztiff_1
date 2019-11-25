@@ -1,0 +1,165 @@
+.slide{
+    &__item{
+        /* Позиционирование */
+        position: relative;
+        display: flex;
+        /* Блочная модель */
+        width: 100%;
+        height: 100vh;
+    }
+    &__img{
+        &-one{
+            /* Позиционирование */
+            position: relative;
+            transform: scaleX(-1);
+            /* Блочная модель */
+            width: 500px;
+            height: 101%;
+            &:before{
+                /* Позиционирование */
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                /* Блочная модель */
+                height: 100%; 
+                width: 100%;
+                content: "";
+                /* Оформление */
+                background-color: black;
+                opacity: 0.25;
+            }
+        }
+        &-two{
+            /* Позиционирование */
+            position: relative;
+            /* Блочная модель */
+            width: 60%;
+            height: 101%;
+            /* Оформление */
+            background-image: url('../../img/fifth-pic.jpg');
+            background-size: cover;
+            &:before{
+                /* Позиционирование */
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                /* Блочная модель */
+                height: 100%; 
+                width: 100%;
+                content: "";
+                /* Оформление */
+                background-color: black;
+                opacity: 0.25;
+            }
+        }
+        &-three{
+            /* Позиционирование */
+            position: relative;
+            /* Блочная модель */
+            width: 60%;
+            height: 101%;
+            /* Оформление */
+            background-image: url('../../img/seven-pic.jpg');
+            background-size: cover;
+            &:before{
+                /* Позиционирование */
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                /* Блочная модель */
+                height: 100%; 
+                width: 100%;
+                content: "";
+                /* Оформление */
+                background-color: black;
+                opacity: 0.25;
+            }
+        }
+    }
+    &__pic{
+        &-one{
+            /* Блочная модель */
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__block{
+        &-text{
+            /* Блочная модель */
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2{
+                /* Типография */
+                font-size: 42px;
+                line-height: 56px;
+                font-style: italic;
+            }
+        }
+        &-paragraph{
+            /* Блочная модель */
+            width: 78%;
+            /* Типография */
+            font-weight: bold;
+            font-size: 23px;
+            &-two{
+                margin-top: 240px;
+            }
+        }
+    }
+    &__line{
+        /* Блочная модель */
+        width: 80%;
+        height: 0px;
+        border: 1px solid #000000;
+    }
+    &__list{
+        &-item{
+            /* Блочная модель */
+            width: 400px;
+            margin-top: 5px;
+        }
+    }
+}
+
+@media (min-width: 1900px){
+    p{
+        font-size: 27px !important;
+    }
+    li{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1300px){
+    .slide{
+        &__block{
+            &-text{
+                /* Блочная модель */
+                width: 48%;
+                h2{
+                    /* Типография */
+                    font-size: 35px;
+                }
+            }
+            &-paragraph{
+                /* Блочная модель */
+                margin-top: 3px;
+                /* Типография */
+                font-size: 17px;
+            }
+        }
+        &__list{
+            &-item{
+                width: 350px;
+            }
+        }
+    }
+}

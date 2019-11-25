@@ -1,0 +1,31 @@
+.slide{
+    &__item{
+        &-eight{
+            /* Оформление */
+            background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+            h2{
+                /* Блочная модель */
+                margin-top: 50px;
+            }
+        }
+    }
+    &__img{
+        &-eight{
+            /* Позиционирование */
+            transform: scaleX(1);
+        }
+    }
+    &__list{
+        &-eight{
+            /* Блочная модель */
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            li{
+                /* Блочная модель */
+                margin-top: 15px;
+                width: 90%;
+            }
+        }
+    }
+}

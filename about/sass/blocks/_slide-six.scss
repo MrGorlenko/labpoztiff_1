@@ -1,0 +1,45 @@
+.slide{
+    &__item{
+        &-six{
+            /* Блочная модель */
+            justify-content: center;
+            align-items: center;
+            /* Оформление */
+            background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+        }
+    }
+    &__block{
+        &-text{
+            &-six{
+                /* Блочная модель */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+                height: 75%;
+                border-top: 3px solid black;
+                border-bottom: 3px solid black;
+            }
+        }
+        &-paragraph{
+            &-six{
+                /* Типография */
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .slide{
+        &__item{
+            &-six{
+                p{
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+
+}

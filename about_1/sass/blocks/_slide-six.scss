@@ -1,0 +1,21 @@
+.slide{
+    &__item-six{
+        background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+    }
+    &__content-six{
+        // background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+        width: 85%;
+        justify-content: center;
+    }
+    &__paragraph-six{
+        font-size: 22px;
+    }
+    &__line-six{
+        &:first-child{
+            margin-bottom: 40px;
+        }
+        &:last-child{
+            margin-top: 40px;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.slide{
+    &__item-five{
+        background: linear-gradient(180deg, rgba(241, 116, 240, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+        position: relative;
+        &-pic{
+            width: 50%;
+            background-image: url('../../img/fifth-pic.jpg');
+        }
+    }
+    &__title-five{
+        position: absolute;
+        left: 33%;
+        width: 590px;
+        z-index: 2;
+    }
+    &__content-five{
+        width: 50%;
+        padding-top: 170px;
+    }
+}

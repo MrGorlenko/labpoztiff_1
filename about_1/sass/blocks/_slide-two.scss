@@ -1,0 +1,7 @@
+.slide__item-two{
+    background: linear-gradient(180deg, rgba(40, 11, 47, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+    &-pic{
+        background-image: url('../../img/second-pic.jpg');
+        transform: scaleX(-1);
+    }
+}

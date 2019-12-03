@@ -5,3 +5,23 @@
         transform: scaleX(-1);
     }
 }
+
+@media (max-width: 550px){
+    .slide{
+        &__item-two{
+            &-pic{
+                background-position-y: -200px;
+            }
+        }
+    }
+}
+
+@media (max-width: 370px){
+    .slide{
+        &__item-two{
+            &-pic{
+                background-position-y: -115px;
+            }
+        }
+    }
+}

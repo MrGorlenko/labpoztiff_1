@@ -4,3 +4,33 @@
         background-image: url('../../img/forth-pic.jpg');
     }
 }
+
+@media (max-width: 992px){
+    .slide{
+        &__title{
+            &-four{
+                width: 390px;
+            }
+        }
+    }
+}
+
+@media (max-width: 680px){
+    .slide{
+        &__title{
+            &-four{
+                width: 290px;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .slide{
+        &__item-four{
+            &-pic{
+                background-position-y: -150px;
+            }
+        }
+    }
+}

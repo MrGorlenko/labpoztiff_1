@@ -745,6 +745,32 @@ template {
   }
 }
 
+@media (max-width: 550px) and (min-height: 600px) {
+  .slide__item-standart {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .slide__item-halfpic {
+    width: 100% !important;
+    height: 35% !important;
+  }
+  .slide__content-standart {
+    width: 100% !important;
+    height: 65%;
+  }
+  .slide__title {
+    width: 220px !important;
+    font-size: 25px !important;
+    line-height: 27px !important;
+  }
+  .slide__paragraph-standart {
+    font-size: 17px !important;
+    line-height: 17px !important;
+  }
+}
+
 @media (max-width: 440px) {
   .slide__item-standart {
     -webkit-box-orient: vertical;
@@ -780,10 +806,10 @@ template {
   }
   .slide__paragraph-standart {
     line-height: 15px;
-    font-size: 12px !important;
+    font-size: 12px;
   }
   .slide__list-standart {
-    font-size: 13px !important;
+    font-size: 13px;
     line-height: 17px;
   }
 }
@@ -795,7 +821,7 @@ template {
   }
   .slide__paragraph-standart {
     line-height: 12px;
-    font-size: 12px !important;
+    font-size: 12px;
   }
   .slide__list-standart {
     line-height: 14px;
@@ -809,8 +835,7 @@ template {
     line-height: 27px;
   }
   .slide__paragraph-standart {
-    line-height: 14px;
-    font-size: 13px !important;
+    font-size: 13px;
   }
   .slide__list-standart {
     font-size: 12px;
@@ -825,7 +850,7 @@ template {
   }
   .slide__paragraph-standart {
     line-height: 11px;
-    font-size: 11px !important;
+    font-size: 11px;
   }
   .slide__list-standart {
     font-size: 9px;
@@ -836,28 +861,27 @@ template {
 @media (max-width: 377px) and (max-height: 680px) {
   .slide__paragraph-standart {
     line-height: 17px;
-    font-size: 13px !important;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 377px) and (max-height: 650px) {
   .slide__paragraph-standart {
     line-height: 16px;
-    font-size: 13px !important;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 377px) and (max-height: 580px) {
   .slide__paragraph-standart {
     line-height: 14px;
-    font-size: 11px !important;
+    font-size: 11px;
   }
 }
 
 @media (min-width: 550px) and (max-height: 450px) {
   .slide__paragraph-standart {
-    line-height: 12px;
-    font-size: 11px !important;
+    font-size: 11px;
   }
 }
 

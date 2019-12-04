@@ -155,6 +155,31 @@
     }
 }
 
+@media (max-width: 550px) and (min-height: 600px){
+    .slide{
+        &__item-standart{
+            flex-direction: column-reverse;
+        }
+        &__item-halfpic{
+            width: 100% !important;
+            height: 35% !important;
+        }
+        &__content-standart{
+            width: 100% !important;
+            height: 65%;
+        }
+        &__title{
+            width: 220px !important;
+            font-size: 25px !important;
+            line-height: 27px !important;
+        }
+        &__paragraph-standart{
+            font-size: 17px !important;
+            line-height: 17px !important;
+        }
+    }
+}
+
 @media (max-width: 440px){
     .slide{
         &__item-standart{
@@ -193,11 +218,11 @@
         &__paragraph{
             &-standart{
                 line-height: 15px;
-                font-size: 12px !important;
+                font-size: 12px ;
             }
         }
         &__list-standart{
-            font-size: 13px !important;
+            font-size: 13px ;
             line-height: 17px;
         }
     }
@@ -212,7 +237,7 @@
         &__paragraph{
             &-standart{
                 line-height: 12px;
-                font-size: 12px !important;
+                font-size: 12px ;
             }
         }
         &__list-standart{
@@ -229,8 +254,8 @@
             line-height: 27px;
         }
         &__paragraph-standart{
-            line-height: 14px;
-            font-size: 13px !important;
+            // line-height: 14px;
+            font-size: 13px ;
         }
         &__list-standart{
             font-size: 12px;
@@ -248,7 +273,7 @@
         &__paragraph{
             &-standart{
                 line-height: 11px;
-                font-size: 11px !important;
+                font-size: 11px ;
             }
         }
         &__list-standart{
@@ -263,7 +288,7 @@
         &__paragraph{
             &-standart{
                 line-height: 17px;
-                font-size: 13px !important;
+                font-size: 13px ;
             }
         }
     }
@@ -274,7 +299,7 @@
         &__paragraph{
             &-standart{
                 line-height: 16px;
-                font-size: 13px !important;
+                font-size: 13px ;
             }
         }
     }
@@ -285,7 +310,7 @@
         &__paragraph{
             &-standart{
                 line-height: 14px;
-                font-size: 11px !important;
+                font-size: 11px ;
             }
         }
     }
@@ -295,8 +320,8 @@
     .slide{
         &__paragraph{
             &-standart{
-                line-height: 12px;
-                font-size: 11px !important;
+                // line-height: 12px;
+                font-size: 11px ;
             }
         }
     } 

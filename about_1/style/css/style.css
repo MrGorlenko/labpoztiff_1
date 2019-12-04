@@ -456,6 +456,18 @@ template {
   }
 }
 
+@media (min-width: 900px) {
+  .slide__item-one {
+    background-position-x: 0px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .slide__item-one {
+    background-position-x: -420px;
+  }
+}
+
 @media (min-width: 420px) {
   .slide__item-one {
     background-position-x: -450px;

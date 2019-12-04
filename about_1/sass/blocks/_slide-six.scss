@@ -53,6 +53,32 @@
     } 
 }
 
+@media (min-width: 566px) and (max-height: 370px){ // для iPhone5e горизонтально
+    .slide{
+        &__line-six{
+            &:first-child{
+                margin-bottom: 5px;
+            }
+            &:last-child{
+                margin-top: 5px;
+            }
+        }
+    } 
+}
+
+@media (min-width: 550px) and (max-height: 450px){ // для iPhone6s горизонтально
+    .slide{
+        &__line-six{
+            &:first-child{
+                margin-bottom: 5px;
+            }
+            &:last-child{
+                margin-top: 5px;
+            }
+        }
+    } 
+}
+
 @media (max-width: 370px){
     .slide{
         &__line-six{

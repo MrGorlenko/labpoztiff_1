@@ -609,9 +609,18 @@ template {
   }
 }
 
+.abc {
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+}
+
 .slide {
   height: 100vh;
   position: relative;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 
 .slide__item-standart {

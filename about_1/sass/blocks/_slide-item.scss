@@ -227,6 +227,8 @@
 
 @media (max-width: 370px){
     .slide{
+        min-height: 100vh;
+        max-height: 150vh;
         &__title{
             font-size: 20px;
             line-height: 20px;

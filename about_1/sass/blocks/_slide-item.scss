@@ -15,8 +15,8 @@
     &__item{
         &-standart{
             display: flex;
-            justify-content: center;
-            align-items: center;
+            // justify-content: center;
+            // align-items: center;
         }
         &-halfpic{
             height: 100%;
@@ -104,6 +104,10 @@
             font-size: 40px;
         }
         &__item{
+            &-standart{
+                justify-content: center;
+                align-items: center;
+            }
             &-halfpic{
                 display: none !important;
             }

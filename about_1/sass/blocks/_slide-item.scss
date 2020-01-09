@@ -15,6 +15,8 @@
     &__item{
         &-standart{
             display: flex;
+            justify-content: center;
+            align-items: center;
         }
         &-halfpic{
             height: 100%;
@@ -64,6 +66,7 @@
         width: 80%;
         height: 0px;
         border: 1px solid #000000;
+        margin-bottom: 15px;
     }
 
     &__paragraph{
@@ -74,6 +77,8 @@
             font-size: 19px;
             line-height: 23px;
             width: 80%;
+            margin-bottom: 5px;
+            line-height: 20px;
         }
     }
     &__list{
@@ -167,6 +172,8 @@
         }
         &__paragraph-standart{
             font-size: 17px !important;
+            margin-bottom: 5px;
+            line-height: 20px;
         }
     }
 }
@@ -254,12 +261,12 @@
         }
         &__paragraph{
             &-standart{
-                line-height: 12px;
+                line-height: 20px;
                 font-size: 12px ;
             }
         }
         &__list-standart{
-            line-height: 14px;
+            line-height: 20px;
             font-size: 12px;
         }
     } 
@@ -292,11 +299,12 @@
             &-standart{
                 line-height: 11px;
                 font-size: 11px ;
+                
             }
         }
         &__list-standart{
             font-size: 9px;
-            line-height: 12px;
+            line-height: 20px;
         }
     } 
 }
@@ -305,7 +313,7 @@
     .slide{
         &__paragraph{
             &-standart{
-                line-height: 17px;
+                line-height: 20px;
                 font-size: 13px ;
             }
         }
@@ -316,7 +324,7 @@
     .slide{
         &__paragraph{
             &-standart{
-                line-height: 16px;
+                line-height: 20px;
                 font-size: 13px ;
             }
         }
@@ -327,7 +335,7 @@
     .slide{
         &__paragraph{
             &-standart{
-                line-height: 14px;
+                line-height: 20px;
                 font-size: 11px ;
             }
         }

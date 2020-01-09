@@ -627,6 +627,12 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .slide__item-halfpic {
@@ -684,6 +690,7 @@ template {
   width: 80%;
   height: 0px;
   border: 1px solid #000000;
+  margin-bottom: 15px;
 }
 
 .slide__paragraph-standart {
@@ -693,6 +700,8 @@ template {
   font-size: 19px;
   line-height: 23px;
   width: 80%;
+  margin-bottom: 5px;
+  line-height: 20px;
 }
 
 .slide__list-standart {
@@ -766,6 +775,8 @@ template {
   }
   .slide__paragraph-standart {
     font-size: 17px !important;
+    margin-bottom: 5px;
+    line-height: 20px;
   }
 }
 
@@ -848,11 +859,11 @@ template {
     line-height: 26px;
   }
   .slide__paragraph-standart {
-    line-height: 12px;
+    line-height: 20px;
     font-size: 12px;
   }
   .slide__list-standart {
-    line-height: 14px;
+    line-height: 20px;
     font-size: 12px;
   }
 }
@@ -882,27 +893,27 @@ template {
   }
   .slide__list-standart {
     font-size: 9px;
-    line-height: 12px;
+    line-height: 20px;
   }
 }
 
 @media (max-width: 377px) and (max-height: 680px) {
   .slide__paragraph-standart {
-    line-height: 17px;
+    line-height: 20px;
     font-size: 13px;
   }
 }
 
 @media (max-width: 377px) and (max-height: 650px) {
   .slide__paragraph-standart {
-    line-height: 16px;
+    line-height: 20px;
     font-size: 13px;
   }
 }
 
 @media (max-width: 377px) and (max-height: 580px) {
   .slide__paragraph-standart {
-    line-height: 14px;
+    line-height: 20px;
     font-size: 11px;
   }
 }
@@ -1041,6 +1052,10 @@ template {
   .slide__title-five {
     width: 300px !important;
     left: 25% !important;
+    top: 20px;
+  }
+  .slide__paragraph-five {
+    margin-top: 45px;
   }
 }
 
@@ -1139,19 +1154,19 @@ template {
 
 @media (max-width: 650px) and (min-height: 350px) {
   .slide__line-six:first-child {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
   }
   .slide__line-six:last-child {
-    margin-top: 5px;
+    margin-top: 30px;
   }
 }
 
 @media (min-width: 566px) and (max-height: 370px) {
   .slide__line-six:first-child {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
   }
   .slide__line-six:last-child {
-    margin-top: 5px;
+    margin-top: 30px;
   }
 }
 
@@ -1166,10 +1181,10 @@ template {
 
 @media (max-width: 370px) {
   .slide__line-six:first-child {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
   }
   .slide__line-six:last-child {
-    margin-top: 5px;
+    margin-top: 30px;
   }
 }
 

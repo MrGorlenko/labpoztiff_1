@@ -166,4 +166,10 @@
   color: black;
   opacity: 0.75;
 }
+
+@media (max-width: 400px) {
+  .slick-next {
+    right: 10px;
+  }
+}
 /*# sourceMappingURL=slick-theme.css.map */

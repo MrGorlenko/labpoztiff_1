@@ -1111,6 +1111,7 @@ template {
 @media (max-width: 370px) {
   .slide__title-five {
     left: 15% !important;
+    font-size: 22px !important;
   }
   .slide__item-five-pic {
     background-position-y: -135px;

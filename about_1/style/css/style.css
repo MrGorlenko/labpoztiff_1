@@ -1089,7 +1089,7 @@ template {
 
 @media (max-width: 650px) and (min-height: 350px) {
   .slide__content-five {
-    padding-top: 85px !important;
+    padding-top: 135px !important;
   }
 }
 
@@ -1098,13 +1098,13 @@ template {
     line-height: 35px;
   }
   .slide__content-five {
-    padding-top: 100px !important;
+    padding-top: 135px !important;
   }
 }
 
 @media (min-width: 566px) and (max-height: 370px) {
   .slide__content-five {
-    padding-top: 65px !important;
+    padding-top: 135px !important;
   }
 }
 
@@ -1114,6 +1114,9 @@ template {
   }
   .slide__item-five-pic {
     background-position-y: -135px;
+  }
+  .slide__content-five {
+    padding-top: 135px !important;
   }
 }
 

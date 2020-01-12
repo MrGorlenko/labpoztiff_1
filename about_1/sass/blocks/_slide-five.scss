@@ -97,7 +97,7 @@
 @media (max-width: 650px) and (min-height: 350px){
     .slide{
         &__content-five{
-            padding-top: 85px !important;
+            padding-top: 135px !important;
         }
     } 
 }
@@ -108,7 +108,7 @@
             line-height: 35px;
         }
         &__content-five{
-            padding-top: 100px !important;
+            padding-top: 135px !important;
         }
     } 
 }
@@ -116,7 +116,7 @@
 @media (min-width: 566px) and (max-height: 370px){ // для iPhone5e горизонтально
     .slide{
         &__content-five{
-            padding-top: 65px !important;
+            padding-top: 135px !important;
         }
     } 
 }
@@ -134,6 +134,9 @@
             &-pic{
                 background-position-y: -135px;
             }
+        }
+        &__content-five{
+            padding-top: 135px !important;
         }
     }
 }

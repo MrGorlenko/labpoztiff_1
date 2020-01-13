@@ -1121,7 +1121,7 @@ template {
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 350px) {
   .slide__title-five {
     left: 15% !important;
     font-size: 22px !important;

@@ -141,3 +141,15 @@
         }
     }
 }
+
+@media (max-width: 330px){
+    .slide{
+        &__title{
+            &-five{
+                left: 15% !important;
+                font-size: 22px !important;
+                color: green;
+            }
+        }
+    }
+}

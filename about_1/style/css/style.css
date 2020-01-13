@@ -1121,6 +1121,14 @@ template {
   }
 }
 
+@media (max-width: 330px) {
+  .slide__title-five {
+    left: 15% !important;
+    font-size: 22px !important;
+    color: green;
+  }
+}
+
 .slide__item-six {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(227, 140, 225, 0.8)), to(rgba(255, 255, 255, 0))), #FFFEFE;
   background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;

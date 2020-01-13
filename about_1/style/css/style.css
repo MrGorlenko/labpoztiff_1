@@ -1121,11 +1121,11 @@ template {
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 380px) {
   .slide__title-five {
     left: 15% !important;
     font-size: 22px !important;
-    color: green !important;
+    color: blue !important;
   }
 }
 

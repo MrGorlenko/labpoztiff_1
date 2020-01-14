@@ -1125,6 +1125,7 @@ template {
   .slide__title-five {
     left: 15% !important;
     font-size: 17px !important;
+    line-height: 23px !important;
   }
 }
 

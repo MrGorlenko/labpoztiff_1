@@ -414,7 +414,6 @@ template {
   /* Блочная модель */
   width: 650px;
   /* Оформление */
-  color: white;
   /* Типография */
   font-weight: bold;
   font-size: 32px;
@@ -627,6 +626,14 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (min-width: 993px) {
+  .slide__item-standart {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .slide__item-halfpic {
@@ -1031,6 +1038,7 @@ template {
   left: 33%;
   width: 590px;
   z-index: 2;
+  top: 0;
 }
 
 .slide__content-five {

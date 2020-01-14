@@ -728,6 +728,10 @@ template {
 }
 
 @media (max-width: 992px) {
+  .slide {
+    min-height: 102vh;
+    max-height: 105vh;
+  }
   .slide__title {
     font-size: 40px;
   }
@@ -1105,7 +1109,7 @@ template {
 
 @media (max-width: 650px) and (min-height: 350px) {
   .slide__content-five {
-    padding-top: 135px !important;
+    padding-top: 35px !important;
   }
 }
 
@@ -1114,13 +1118,13 @@ template {
     line-height: 35px;
   }
   .slide__content-five {
-    padding-top: 135px !important;
+    padding-top: 35px !important;
   }
 }
 
 @media (min-width: 566px) and (max-height: 370px) {
   .slide__content-five {
-    padding-top: 135px !important;
+    padding-top: 35px !important;
   }
 }
 
@@ -1133,14 +1137,15 @@ template {
     background-position-y: -135px;
   }
   .slide__content-five {
-    padding-top: 135px !important;
+    padding-top: 35px !important;
   }
 }
 
 @media (max-width: 380px) {
   .slide__title-five {
+    top: 50px;
     left: 15% !important;
-    font-size: 17px !important;
+    font-size: 25px !important;
     line-height: 23px !important;
   }
 }

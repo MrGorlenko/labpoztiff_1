@@ -365,12 +365,14 @@ template {
 }
 
 .slide__item-one-half {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 7, 27, 0.8)), to(rgba(255, 255, 255, 0))), #FFFEFE;
-  background: linear-gradient(180deg, rgba(23, 7, 27, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+  /* Блочная модель */
   -webkit-box-orient: initial !important;
   -webkit-box-direction: initial !important;
       -ms-flex-direction: initial !important;
           flex-direction: initial !important;
+  /* Оформление */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 7, 27, 0.8)), to(rgba(255, 255, 255, 0))), #FFFEFE;
+  background: linear-gradient(180deg, rgba(23, 7, 27, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
 }
 
 .slide__content-one {
@@ -413,7 +415,6 @@ template {
   position: relative;
   /* Блочная модель */
   width: 650px;
-  /* Оформление */
   /* Типография */
   font-weight: bold;
   font-size: 32px;
@@ -422,207 +423,265 @@ template {
 
 @media (max-width: 1200px) {
   .slide__content-one {
+    /* Блочная модель */
     padding-left: 90px;
   }
 }
 
 @media (max-width: 680px) {
   .slide__title {
+    /* Блочная модель */
     width: 300px;
   }
   .slide__title-one {
+    /* Блочная модель */
     width: 300px;
+    /* Типография */
     font-size: 23px;
   }
   .slide__subtitle-one {
+    /* Блочная модель */
     width: 300px;
+    /* Типография */
     font-size: 23px;
   }
 }
 
 @media (max-width: 550px) {
   .slide__item-one {
+    /* Оформление */
     background-position-x: -400px;
   }
   .slide__content-one {
+    /* Оформление */
     padding-left: 50px;
   }
 }
 
 @media (max-width: 420px) and (min-height: 800px) {
   .slide__item-one {
+    /* Оформление */
     background-position-x: -520px;
   }
 }
 
 @media (min-width: 900px) {
   .slide__item-one {
+    /* Оформление */
     background-position-x: 0px !important;
   }
 }
 
 @media (max-width: 900px) {
   .slide__item-one {
+    /* Оформление */
     background-position-x: -420px;
   }
 }
 
 @media (min-width: 420px) {
   .slide__item-one {
+    /* Оформление */
     background-position-x: -450px;
   }
 }
 
 @media (max-width: 377px) {
   .slide__item-one {
+    /* Оформление */
     background-position-x: -400px;
   }
   .slide__content-one {
+    /* Блочная модель */
     height: 50%;
     padding-top: 220px;
   }
   .slide__subtitle-one {
-    font-size: 20px;
+    /* Блочная модель */
     width: 298px;
+    /* Оформление */
+    font-size: 20px;
   }
 }
 
 @media (min-width: 630px) and (max-height: 370px) {
   .slide__title-last {
-    font-size: 20px !important;
+    /* Блочная модель */
     width: 400px;
+    /* Типография */
+    font-size: 20px !important;
   }
   .slide__subtitle-last {
+    /* Блочная модель */
     width: 350px;
   }
   .slide__content-one {
+    /* Блочная модель */
     height: 45%;
   }
   .slide__content-last {
+    /* Блочная модель */
     padding-top: 50px;
   }
   .slide__item-one {
+    /* Оформление */
     background-position-x: 0;
   }
 }
 
 @media (min-width: 566px) and (max-height: 370px) {
   .slide__subtitle-last {
+    /* Блочная модель */
     width: 350px;
+    /* Типография */
     font-size: 18px;
   }
 }
 
 @media (min-width: 630px) and (max-height: 450px) {
   .slide__title-last {
-    font-size: 20px !important;
+    /* Блочная модель */
     width: 400px;
+    /* Типография */
+    font-size: 20px !important;
   }
   .slide__subtitle-last {
+    /* Блочная модель */
     width: 350px;
+    /* Типография */
     font-size: 24px;
   }
   .slide__content-one {
+    /* Блочная модель */
     height: 45%;
     padding-top: 160px;
   }
   .slide__content-last {
+    /* Блочная модель */
     padding-top: 50px;
   }
   .slide__item-one {
+    /* Оформление */
     background-position-x: 0;
   }
 }
 
 @media (min-width: 550px) and (max-height: 450px) {
   .slide__title-last {
-    font-size: 20px !important;
+    /* Блочная модель */
     width: 400px;
+    /* Типография */
+    font-size: 20px !important;
   }
   .slide__subtitle-last {
+    /* Блочная модель */
     width: 350px;
   }
   .slide__content-one {
+    /* Блочная модель */
     height: 45%;
     padding-top: 160px;
   }
   .slide__content-last {
+    /* Блочная модель */
     padding-top: 160px;
   }
   .slide__item-one {
+    /* Оформление */
     background-position-x: 0;
   }
 }
 
 @media (min-width: 800px) and (max-height: 450px) {
   .slide__title-one {
+    /* Типография */
     font-size: 42px;
   }
   .slide__title-last {
-    font-size: 20px !important;
+    /* Блочная модель */
     width: 400px;
+    /* Типография */
+    font-size: 20px !important;
   }
   .slide__subtitle-one {
+    /* Типография */
     font-size: 30px;
   }
   .slide__subtitle-last {
+    /* Блочная модель */
     width: 350px;
   }
   .slide__content-one {
+    /* Блочная модель */
     height: 45%;
     padding-top: 125px;
   }
   .slide__content-last {
+    /* Блочная модель */
     padding-top: 50px;
   }
   .slide__item-one {
+    /* Оформление */
     background-position-x: 0;
   }
 }
 
 @media (max-width: 377px) and (max-height: 650px) {
   .slide__item-one {
+    /* Оформление */
     background-position-x: -375px;
   }
   .slide__content-one {
+    /* Блочная модель */
     height: 50%;
     padding-top: 220px;
   }
   .slide__subtitle-one {
-    font-size: 20px;
+    /* Блочная модель */
     width: 298px;
+    /* Типография */
+    font-size: 20px;
   }
 }
 
 @media (max-width: 377px) and (min-height: 810px) {
   .slide__item-one {
+    /* Оформление */
     background-position-x: -535px;
   }
   .slide__content-one {
+    /* Блочная модель */
     height: 50%;
     padding-top: 220px;
   }
   .slide__subtitle-one {
-    font-size: 20px;
+    /* Блочная модель */
     width: 298px;
+    /* Типография */
+    font-size: 20px;
   }
 }
 
 .abc {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
   max-width: 100%;
   margin: auto;
-  position: relative;
 }
 
 .slide {
-  height: 100vh;
+  /* Позиционирование */
   position: relative;
+  /* Блочная модель */
+  height: 100vh;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
 }
 
 .slide__item-standart {
+  /* Блочная модель */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -630,6 +689,7 @@ template {
 
 @media screen and (min-width: 993px) {
   .slide__item-standart {
+    /* Блочная модель */
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -637,10 +697,13 @@ template {
 }
 
 .slide__item-halfpic {
+  /* Позиционирование */
+  position: relative;
+  /* Блочная модель */
   height: 100%;
   width: 35%;
+  /* Оформление */
   background-size: cover;
-  position: relative;
 }
 
 .slide__item-halfpic:before {
@@ -660,6 +723,7 @@ template {
 }
 
 .slide__content-standart {
+  /* Блочная модель */
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -677,6 +741,7 @@ template {
 }
 
 .slide__title {
+  /* Типография */
   font-family: PT Serif;
   font-style: italic;
   font-weight: normal;
@@ -686,6 +751,7 @@ template {
 }
 
 .slide__title-last {
+  /* Типография */
   font-size: 26px;
 }
 
@@ -699,28 +765,33 @@ template {
 
 @media screen and (min-width: 992px) {
   .slide__line_mobile {
+    /* Блочная модель */
     display: none !important;
   }
 }
 
 .slide__paragraph-standart {
+  /* Блочная модель */
+  width: 80%;
+  margin-bottom: 5px;
+  /* Типография */
   font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
   line-height: 23px;
-  width: 80%;
-  margin-bottom: 5px;
   line-height: 20px;
 }
 
 .slide__list-standart {
+  /* Блочная модель */
+  width: 80%;
+  /* Типография */
   font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
   line-height: 23px;
-  width: 80%;
 }
 
 .slide__list-standart-all {
@@ -729,19 +800,24 @@ template {
 }
 
 .slide__subtitle-last {
+  /* Типография */
   font-size: 26px;
+  /* Оформление */
   color: white;
 }
 
 @media (max-width: 992px) {
   .slide {
+    /* Блочная модель */
     min-height: 102vh;
     max-height: 105vh;
   }
   .slide__title {
+    /* Типография */
     font-size: 40px;
   }
   .slide__item-standart {
+    /* Блочная модель */
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -750,31 +826,38 @@ template {
             align-items: center;
   }
   .slide__item-halfpic {
+    /* Блочная модель */
     display: none !important;
   }
   .slide__paragraph-standart {
+    /* Типография */
     font-size: 18px;
   }
   .slide__list-standart {
+    /* Типография */
     font-size: 17px;
   }
 }
 
 @media (max-width: 790px) {
   .slide__paragraph-standart {
+    /* Типография */
     font-size: 17px;
     line-height: 18px;
   }
   .slide__list-standart {
+    /* Типография */
     line-height: 19px;
   }
 }
 
 @media (max-width: 680px) {
   .slide__content-standart {
+    /* Блочная модель */
     width: 55%;
   }
   .slide__title {
+    /* Типография */
     font-size: 36px;
     line-height: 40px;
   }
@@ -782,52 +865,65 @@ template {
 
 @media (max-width: 550px) {
   .slide__item-standart {
+    /* Блочная модель */
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
   .slide__item-halfpic {
+    /* Блочная модель */
     width: 100%;
     height: 35%;
   }
   .slide__content-standart {
+    /* Блочная модель */
     width: 100%;
     height: 100%;
   }
   .slide__title {
+    /* Блочная модель */
     width: 220px;
+    /* Типография */
     font-size: 25px;
     line-height: 27px;
   }
   .slide__paragraph-standart {
-    font-size: 17px;
+    /* Блочная модель */
     margin-bottom: 5px;
+    /* Типография */
+    font-size: 17px;
     line-height: 20px;
   }
 }
 
 @media (max-width: 550px) and (min-height: 600px) {
   .slide__item-standart {
+    /* Блочная модель */
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
   .slide__item-halfpic {
+    /* Блочная модель */
     width: 100%;
     height: 35%;
   }
   .slide__content-standart {
+    /* Блочная модель */
     width: 100%;
     height: 100%;
   }
   .slide__title {
+    /* Блочная модель */
     width: 220px;
+    /* Типография */
     font-size: 25px;
     line-height: 27px;
   }
   .slide__paragraph-standart {
+    /* Типография */
     font-size: 17px;
     line-height: 17px;
   }
@@ -835,46 +931,57 @@ template {
 
 @media (max-width: 440px) {
   .slide__item-standart {
+    /* Блочная модель */
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
   .slide__item-halfpic {
+    /* Блочная модель */
     width: 100%;
     height: 35%;
   }
   .slide__content-standart {
+    /* Блочная модель */
     width: 100%;
     height: 100%;
   }
   .slide__title {
+    /* Блочная модель */
     width: 220px;
+    /* Типография */
     font-size: 25px;
     line-height: 27px;
   }
   .slide__paragraph-standart {
+    /* Типография */
     font-size: 14px;
   }
   .slide__list-standart {
+    /* Типография */
     font-size: 14px;
   }
 }
 
 @media (max-width: 380px) {
   .slide {
+    /* Блочная модель */
     min-height: 100vh;
     max-height: 150vh;
   }
   .slide__title {
+    /* Типография */
     font-size: 20px;
     line-height: 20px;
   }
   .slide__paragraph-standart {
+    /* Типография */
     line-height: 15px;
     font-size: 12px;
   }
   .slide__list-standart {
+    /* Типография */
     font-size: 13px;
     line-height: 15px;
   }
@@ -882,14 +989,17 @@ template {
 
 @media (max-width: 650px) and (min-height: 350px) {
   .slide__title {
+    /* Типография */
     font-size: 24px;
     line-height: 26px;
   }
   .slide__paragraph-standart {
+    /* Типография */
     line-height: 20px;
     font-size: 12px;
   }
   .slide__list-standart {
+    /* Типография */
     line-height: 18px;
     font-size: 12px;
   }
@@ -904,6 +1014,7 @@ template {
     font-size: 13px;
   }
   .slide__list-standart {
+    /* Типография */
     font-size: 12px;
     line-height: 16px;
   }
@@ -911,14 +1022,17 @@ template {
 
 @media (min-width: 566px) and (max-height: 370px) {
   .slide__title {
+    /* Типография */
     font-size: 21px;
     line-height: 17px;
   }
   .slide__paragraph-standart {
+    /* Типография */
     line-height: 11px;
     font-size: 11px;
   }
   .slide__list-standart {
+    /* Типография */
     font-size: 9px;
     line-height: 18px;
   }
@@ -926,6 +1040,7 @@ template {
 
 @media (max-width: 377px) and (max-height: 680px) {
   .slide__paragraph-standart {
+    /* Типография */
     line-height: 18px;
     font-size: 13px;
   }
@@ -933,6 +1048,7 @@ template {
 
 @media (max-width: 377px) and (max-height: 650px) {
   .slide__paragraph-standart {
+    /* Типография */
     line-height: 18px;
     font-size: 13px;
   }
@@ -940,6 +1056,7 @@ template {
 
 @media (max-width: 377px) and (max-height: 580px) {
   .slide__paragraph-standart {
+    /* Типография */
     line-height: 18px;
     font-size: 11px;
   }
@@ -947,16 +1064,19 @@ template {
 
 @media (min-width: 550px) and (max-height: 450px) {
   .slide__paragraph-standart {
+    /* Типография */
     font-size: 11px !important;
   }
 }
 
 .slide__item-two {
+  /* Оформление */
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 11, 47, 0.8)), to(rgba(255, 255, 255, 0))), #FFFEFE;
   background: linear-gradient(180deg, rgba(40, 11, 47, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
 }
 
 .slide__item-two-pic {
+  /* Оформление */
   background-image: url("../../img/second-pic.jpg");
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
@@ -964,12 +1084,14 @@ template {
 
 @media (max-width: 550px) {
   .slide__item-two-pic {
+    /* Оформление */
     background-position-y: -200px;
   }
 }
 
 @media (max-width: 370px) {
   .slide__item-two-pic {
+    /* Оформление */
     background-position-y: -115px;
   }
 }
@@ -980,35 +1102,41 @@ template {
 }
 
 .slide__item-three-pic {
+  /* Оформление */
   background-image: url("../../img/third-pic.jpg");
 }
 
 @media (max-width: 992px) {
   .slide__title-three {
+    /* Блочная модель */
     width: 350px;
   }
 }
 
 @media (max-width: 680px) {
   .slide__title-three {
+    /* Блочная модель */
     width: 250px;
   }
 }
 
 @media (max-width: 550px) {
   .slide__item-three-pic {
+    /* Оформление */
     background-position-y: -205px;
   }
 }
 
 @media (max-width: 380px) and (min-height: 650px) {
   .slide__item-three-pic {
+    /* Оформление */
     background-position-y: -155px;
   }
 }
 
 @media (max-width: 370px) {
   .slide__item-three-pic {
+    /* Оформление */
     background-position-y: -120px;
   }
 }
@@ -1019,88 +1147,110 @@ template {
 }
 
 .slide__item-four-pic {
+  /* Оформление */
   background-image: url("../../img/forth-pic.jpg");
 }
 
 @media (max-width: 992px) {
   .slide__title-four {
+    /* Блочная модель */
     width: 390px;
   }
 }
 
 @media (max-width: 680px) {
   .slide__title-four {
+    /* Блочная модель */
     width: 290px;
   }
 }
 
 @media (max-width: 550px) {
   .slide__item-four-pic {
+    /* Оформление */
     background-position-y: -150px;
   }
 }
 
 .slide__item-five {
+  /* Позиционирование */
+  position: relative;
+  /* Оформление */
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(241, 116, 240, 0.8)), to(rgba(255, 255, 255, 0))), #FFFEFE;
   background: linear-gradient(180deg, rgba(241, 116, 240, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
-  position: relative;
 }
 
 .slide__item-five-pic {
+  /* Блочная модель */
   width: 50%;
+  /* Оформление */
   background-image: url("../../img/fifth-pic.jpg");
 }
 
 .slide__title-five {
+  /* Позиционирование */
   position: absolute;
   left: 33%;
-  width: 590px;
   z-index: 2;
   top: 0;
+  /* Блочная модель */
+  width: 590px;
 }
 
 .slide__content-five {
+  /* Блочная модель */
   width: 50%;
   padding-top: 170px;
 }
 
 @media (max-width: 992px) {
   .slide__title-five {
+    /* Блочная модель */
     width: 400px !important;
   }
 }
 
 @media (max-width: 780px) {
   .slide__title-five {
+    /* Позиционирование */
     left: 25% !important;
   }
 }
 
 @media (max-width: 680px) {
   .slide__title-five {
-    width: 300px !important;
+    /* Позиционирование */
     left: 25% !important;
     top: 40px;
+    /* Блочная модель */
+    width: 300px !important;
   }
   .slide__paragraph-five {
+    /* Блочная модель */
     margin-top: 45px;
   }
 }
 
 @media (max-width: 550px) {
   .slide__title-five {
+    /* Позиционирование */
     top: 60px;
+    /* Блочная модель */
     width: 220px !important;
+    /* Типография */
     font-size: 25px !important;
     line-height: 27px !important;
   }
   .slide__content-five {
+    /* Блочная модель */
     width: 100% !important;
     padding-top: 115px !important;
   }
   .slide__item-five-pic {
+    /* Блочная модель */
     width: 100%;
     height: 45%;
+    /* Оформление */
     background-position-y: -190px;
     -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
@@ -1109,60 +1259,73 @@ template {
 
 @media (max-width: 380px) and (min-height: 650px) {
   .slide__item-five-pic {
+    /* Оформление */
     background-position-y: -135px;
   }
 }
 
 @media (max-width: 650px) and (min-height: 350px) {
   .slide__content-five {
+    /* Блочная модель */
     padding-top: 35px !important;
   }
 }
 
 @media (min-width: 630px) and (max-height: 450px) {
   .slide__title-five {
+    /* Типография */
     line-height: 35px;
   }
   .slide__content-five {
+    /* Блочная модель */
     padding-top: 35px !important;
   }
 }
 
 @media (min-width: 566px) and (max-height: 370px) {
   .slide__content-five {
+    /* Блочная модель */
     padding-top: 35px !important;
   }
 }
 
 @media (max-width: 370px) {
   .slide__title-five {
+    /* Позиционирование */
     top: 50px;
     left: 15% !important;
+    /* Типография */
     font-size: 22px !important;
   }
   .slide__item-five-pic {
+    /* Оформление */
     background-position-y: -135px;
   }
   .slide__content-five {
+    /* Блочная модель */
     padding-top: 35px !important;
   }
 }
 
 @media (max-width: 380px) {
   .slide__title-five {
+    /* Позиционирование */
     top: 50px;
     left: 15% !important;
+    /* Типография */
     font-size: 25px !important;
     line-height: 23px !important;
   }
 }
 
 .slide__item-six {
+  /* Оформление */
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(227, 140, 225, 0.8)), to(rgba(255, 255, 255, 0))), #FFFEFE;
   background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
 }
 
 .slide__content-six {
+  /* Блочная модель */
   width: 85%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1170,15 +1333,18 @@ template {
 }
 
 .slide__line-six:first-child {
+  /* Блочная модель */
   margin-bottom: 40px;
 }
 
 .slide__line-six:last-child {
+  /* Блочная модель */
   margin-top: 40px;
 }
 
 @media (max-width: 550px) {
   .slide__content-six {
+    /* Блочная модель */
     width: 100%;
     height: 100%;
   }
@@ -1186,36 +1352,44 @@ template {
 
 @media (max-width: 650px) and (min-height: 350px) {
   .slide__line-six:first-child {
+    /* Блочная модель */
     margin-bottom: 30px;
   }
   .slide__line-six:last-child {
+    /* Блочная модель */
     margin-top: 30px;
   }
 }
 
 @media (min-width: 566px) and (max-height: 370px) {
   .slide__line-six:first-child {
+    /* Блочная модель */
     margin-bottom: 30px;
   }
   .slide__line-six:last-child {
+    /* Блочная модель */
     margin-top: 30px;
   }
 }
 
 @media (min-width: 550px) and (max-height: 450px) {
   .slide__line-six:first-child {
+    /* Блочная модель */
     margin-bottom: 5px;
   }
   .slide__line-six:last-child {
+    /* Блочная модель */
     margin-top: 5px;
   }
 }
 
 @media (max-width: 370px) {
   .slide__line-six:first-child {
+    /* Блочная модель */
     margin-bottom: 30px;
   }
   .slide__line-six:last-child {
+    /* Блочная модель */
     margin-top: 30px;
   }
 }
@@ -1226,60 +1400,74 @@ template {
 }
 
 .slide__item-seven-pic {
+  /* Оформление */
   background-image: url("../../img/sixth-pic.jpg");
 }
 
 @media (max-width: 550px) {
   .slide__item-seven-pic {
+    /* Оформление */
     background-position-y: -130px;
   }
 }
 
 .slide__item-eight {
+  /* Позиционирование */
+  position: relative;
+  /* Оформление */
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(227, 140, 225, 0.8)), to(rgba(255, 255, 255, 0))), #FFFEFE;
   background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
-  position: relative;
 }
 
 .slide__item-eight-pic {
+  /* Блочная модель */
   width: 50%;
+  /* Оформление */
   background-image: url("../../img/seven-pic.jpg");
 }
 
 .slide__title-five {
+  /* Позиционирование */
   position: absolute;
   left: 33%;
-  width: 590px;
   z-index: 2;
+  /* Блочная модель */
+  width: 590px;
 }
 
 .slide__content-five {
+  /* Блочная модель */
   width: 50%;
   padding-top: 170px;
 }
 
 @media (max-width: 550px) {
   .slide__item-eight-pic {
+    /* Блочная модель */
     width: 100%;
     height: 45%;
+    /* Оформление */
     background-position-y: -190px;
   }
 }
 
 @media (max-width: 420px) and (min-height: 700px) {
   .slide__item-eight-pic {
+    /* Оформление */
     background-position-y: -140px;
   }
 }
 
 @media (max-width: 380px) and (min-height: 650px) {
   .slide__item-eight-pic {
+    /* Оформление */
     background-position-y: -140px;
   }
 }
 
 @media (max-width: 370px) {
   .slide__item-eight-pic {
+    /* Оформление */
     background-position-y: -100px;
   }
 }

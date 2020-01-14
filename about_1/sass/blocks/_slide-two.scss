@@ -1,6 +1,8 @@
 .slide__item-two{
+    /* Оформление */
     background: linear-gradient(180deg, rgba(40, 11, 47, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
     &-pic{
+        /* Оформление */
         background-image: url('../../img/second-pic.jpg');
         transform: scaleX(-1);
     }
@@ -10,6 +12,7 @@
     .slide{
         &__item-two{
             &-pic{
+                /* Оформление */
                 background-position-y: -200px;
             }
         }
@@ -20,6 +23,7 @@
     .slide{
         &__item-two{
             &-pic{
+                /* Оформление */
                 background-position-y: -115px;
             }
         }

@@ -1,20 +1,27 @@
 .slide{
     &__item-five{
-        background: linear-gradient(180deg, rgba(241, 116, 240, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+        /* Позиционирование */
         position: relative;
+        /* Оформление */
+        background: linear-gradient(180deg, rgba(241, 116, 240, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
         &-pic{
+            /* Блочная модель */
             width: 50%;
+            /* Оформление */
             background-image: url('../../img/fifth-pic.jpg');
         }
     }
     &__title-five{
+        /* Позиционирование */
         position: absolute;
         left: 33%;
-        width: 590px;
         z-index: 2;
         top: 0;
+        /* Блочная модель */
+        width: 590px;
     }
     &__content-five{
+        /* Блочная модель */
         width: 50%;
         padding-top: 170px;
     }
@@ -25,8 +32,8 @@
     .slide{
         &__title{
             &-five{
+                /* Блочная модель */
                 width: 400px !important;
-                // left: 25% !important;
             }
         }
     }
@@ -36,7 +43,7 @@
     .slide{
         &__title{
             &-five{
-                // width: 400px !important;
+                /* Позиционирование */
                 left: 25% !important;
             }
         }
@@ -47,13 +54,16 @@
     .slide{
         &__title{
             &-five{
-                width: 300px !important;
+                /* Позиционирование */
                 left: 25% !important;
                 top: 40px;
+                /* Блочная модель */
+                width: 300px !important;
             }
         }
         &__paragraph{
             &-five{
+                /* Блочная модель */
                 margin-top: 45px;
             }
         }
@@ -64,20 +74,26 @@
     .slide{
         &__title{
             &-five{
+                /* Позиционирование */
                 top: 60px;
+                /* Блочная модель */
                 width: 220px !important;
+                /* Типография */
                 font-size: 25px !important;
                 line-height: 27px !important;
             }
         }
         &__content-five{
+            /* Блочная модель */
             width: 100% !important;
             padding-top: 115px !important;
         }
         &__item-five{
             &-pic{
+                /* Блочная модель */
                 width: 100%;
                 height: 45%;
+                /* Оформление */
                 background-position-y: -190px;
                 transform: scaleX(-1);
             }
@@ -89,6 +105,7 @@
     .slide{
         &__item-five{
             &-pic{
+                /* Оформление */
                 background-position-y: -135px;
             }
         }
@@ -98,6 +115,7 @@
 @media (max-width: 650px) and (min-height: 350px){
     .slide{
         &__content-five{
+            /* Блочная модель */
             padding-top: 35px !important;
         }
     } 
@@ -106,9 +124,11 @@
 @media (min-width: 630px) and (max-height: 450px){ // для Pixel 2 горизонтально
     .slide{
         &__title-five{
+            /* Типография */
             line-height: 35px;
         }
         &__content-five{
+            /* Блочная модель */
             padding-top: 35px !important;
         }
     } 
@@ -117,6 +137,7 @@
 @media (min-width: 566px) and (max-height: 370px){ // для iPhone5e горизонтально
     .slide{
         &__content-five{
+            /* Блочная модель */
             padding-top: 35px !important;
         }
     } 
@@ -128,17 +149,21 @@
     .slide{
         &__title{
             &-five{
+                /* Позиционирование */
                 top: 50px;
                 left: 15% !important;
+                /* Типография */
                 font-size: 22px !important;
             }
         }
         &__item-five{
             &-pic{
+                /* Оформление */
                 background-position-y: -135px;
             }
         }
         &__content-five{
+            /* Блочная модель */
             padding-top: 35px !important;
         }
     }
@@ -148,11 +173,12 @@
     .slide{
         &__title{
             &-five{
+                /* Позиционирование */
                 top: 50px;
                 left: 15% !important;
+                /* Типография */
                 font-size: 25px !important;
                 line-height: 23px !important;
-                // color: blue !important;
             }
         }
     }

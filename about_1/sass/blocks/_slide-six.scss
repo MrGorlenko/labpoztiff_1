@@ -1,39 +1,30 @@
 .slide{
     &__item-six{
+        /* Оформление */
         background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
     }
     &__content-six{
-        // background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+        /* Блочная модель */
         width: 85%;
         justify-content: center;
     }
-    // &__paragraph-six{
-    //     font-size: 22px;
-    // }
     &__line-six{
         &:first-child{
+            /* Блочная модель */
             margin-bottom: 40px;
         }
         &:last-child{
+            /* Блочная модель */
             margin-top: 40px;
         }
     }
 }
 
-// @media (max-width: 992px){
-//     .slide{
-//         &__paragraph{
-//             &-six{
-//                 font-size: 18px;
-//             }
-            
-//         }
-//     }
-// }
 
 @media (max-width: 550px){
     .slide{
         &__content-six{
+            /* Блочная модель */
             width: 100%;
             height: 100%;
         }
@@ -44,9 +35,11 @@
     .slide{
         &__line-six{
             &:first-child{
+                /* Блочная модель */
                 margin-bottom: 30px;
             }
             &:last-child{
+                /* Блочная модель */
                 margin-top: 30px;
             }
         }
@@ -57,9 +50,11 @@
     .slide{
         &__line-six{
             &:first-child{
+                /* Блочная модель */
                 margin-bottom: 30px;
             }
             &:last-child{
+                /* Блочная модель */
                 margin-top: 30px;
             }
         }
@@ -70,9 +65,11 @@
     .slide{
         &__line-six{
             &:first-child{
+                /* Блочная модель */
                 margin-bottom: 5px;
             }
             &:last-child{
+                /* Блочная модель */
                 margin-top: 5px;
             }
         }
@@ -83,9 +80,11 @@
     .slide{
         &__line-six{
             &:first-child{
+                /* Блочная модель */
                 margin-bottom: 30px;
             }
             &:last-child{
+                /* Блочная модель */
                 margin-top: 30px;
             }
         }

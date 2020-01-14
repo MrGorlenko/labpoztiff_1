@@ -1,19 +1,26 @@
 .slide{
     &__item-eight{
-        background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
+        /* Позиционирование */
         position: relative;
+        /* Оформление */
+        background: linear-gradient(180deg, rgba(227, 140, 225, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
         &-pic{
+            /* Блочная модель */
             width: 50%;
+            /* Оформление */
             background-image: url('../../img/seven-pic.jpg');
         }
     }
     &__title-five{
+        /* Позиционирование */
         position: absolute;
         left: 33%;
-        width: 590px;
         z-index: 2;
+        /* Блочная модель */
+        width: 590px;
     }
     &__content-five{
+        /* Блочная модель */
         width: 50%;
         padding-top: 170px;
     }
@@ -23,8 +30,10 @@
     .slide{
         &__item-eight{
             &-pic{
+                /* Блочная модель */
                 width: 100%;
                 height: 45%;
+                /* Оформление */
                 background-position-y: -190px;
             }
         }
@@ -35,6 +44,7 @@
     .slide{
         &__item-eight{
             &-pic{
+                /* Оформление */
                 background-position-y: -140px;
             }
         }
@@ -45,6 +55,7 @@
     .slide{
         &__item-eight{
             &-pic{
+                /* Оформление */
                 background-position-y: -140px;
             }
         }
@@ -55,6 +66,7 @@
     .slide{
         &__item-eight{
             &-pic{
+                /* Оформление */
                 background-position-y: -100px;
             }
         }

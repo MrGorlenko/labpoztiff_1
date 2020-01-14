@@ -1,31 +1,34 @@
 .abc{
+    /* Позиционирование */
+    position: relative;
+    /* Блочная модель */
     max-width: 100%;
     margin: auto;
-    position: relative;
-    // width: 50vh;
-    // display: block;
-
 }
 
 .slide{
-    height: 100vh;
-    // width: 100%;
+    /* Позиционирование */
     position: relative;
+    /* Блочная модель */
+    height: 100vh;
     display: flex !important;
     &__item{
         &-standart{
+            /* Блочная модель */
             display: flex;
             @media screen and (min-width: 993px){
+                /* Блочная модель */
                align-items: center;
             }
-            // justify-content: center;
-            // align-items: center;
         }
         &-halfpic{
-            height: 100%;
-            width: 35%;        
-            background-size: cover;
+            /* Позиционирование */
             position: relative;
+            /* Блочная модель */
+            height: 100%;
+            width: 35%;  
+            /* Оформление */      
+            background-size: cover;
             &:before{
                 /* Позиционирование */
                 position: absolute;
@@ -46,6 +49,7 @@
 
     &__content{
         &-standart{
+            /* Блочная модель */
             width: 50%;
             display: flex;
             flex-direction: column;
@@ -54,6 +58,7 @@
         }
     }
     &__title{
+        /* Типография */
         font-family: PT Serif;
         font-style: italic;
         font-weight: normal;
@@ -61,6 +66,7 @@
         line-height: 56px;
         text-align: center;
         &-last{
+            /* Типография */
             font-size: 26px;
         }
     }
@@ -73,6 +79,7 @@
         margin-bottom: 15px;
         &_mobile{
             @media screen and (min-width: 992px){
+                /* Блочная модель */
                 display: none !important;
             }
         }
@@ -80,24 +87,28 @@
 
     &__paragraph{
         &-standart{
+            /* Блочная модель */
+            width: 80%;
+            margin-bottom: 5px;
+            /* Типография */
             font-family: PT Serif;
             font-style: normal;
             font-weight: bold;
             font-size: 19px;
             line-height: 23px;
-            width: 80%;
-            margin-bottom: 5px;
             line-height: 20px;
         }
     }
     &__list{
         &-standart{
+             /* Блочная модель */
+            width: 80%;
+            /* Типография */
             font-family: PT Serif;
             font-style: normal;
             font-weight: bold;
             font-size: 19px;
             line-height: 23px;
-            width: 80%;
             &-all{
                 padding-left: 0;
                 width: 75%;
@@ -107,7 +118,9 @@
     }
     &__subtitle{
         &-last{
+            /* Типография */
             font-size: 26px;
+            /* Оформление */
             color: white;
         }
     }
@@ -115,27 +128,33 @@
 
 @media (max-width: 992px){
     .slide{
+        /* Блочная модель */
         min-height: 102vh;
         max-height: 105vh;
         &__title{
+            /* Типография */
             font-size: 40px;
         }
         &__item{
             &-standart{
+                /* Блочная модель */
                 justify-content: center;
                 align-items: center;
             }
             &-halfpic{
+                /* Блочная модель */
                 display: none !important;
             }
         }
         &__paragraph{
             &-standart{
+                /* Типография */
                 font-size: 18px;
             }
         }
         &__list{
             &-standart{
+                /* Типография */
                 font-size: 17px;
             }
         }
@@ -146,12 +165,14 @@
     .slide{
         &__paragraph{
             &-standart{
+                /* Типография */
                 font-size: 17px;
                 line-height: 18px;
             }
         }
         &__list{
             &-standart{
+                /* Типография */
                 line-height: 19px;
             }
         }
@@ -162,10 +183,12 @@
     .slide{
         &__content{
             &-standart{
+                /* Блочная модель */
                 width: 55%;
             }
         }
         &__title{
+            /* Типография */
             font-size: 36px;
             line-height: 40px;
         }
@@ -176,24 +199,31 @@
 @media (max-width: 550px){
     .slide{
         &__item-standart{
+            /* Блочная модель */   
             flex-direction: column-reverse;
         }
         &__item-halfpic{
+            /* Блочная модель */
             width: 100%;
             height: 35%;
         }
         &__content-standart{
+            /* Блочная модель */
             width: 100%;
             height: 100%;
         }
         &__title{
+             /* Блочная модель */
             width: 220px;
+            /* Типография */
             font-size: 25px;
             line-height: 27px;
         }
         &__paragraph-standart{
-            font-size: 17px ;
+            /* Блочная модель */
             margin-bottom: 5px;
+            /* Типография */
+            font-size: 17px ;
             line-height: 20px;
         }
     }
@@ -202,22 +232,28 @@
 @media (max-width: 550px) and (min-height: 600px){
     .slide{
         &__item-standart{
+            /* Блочная модель */
             flex-direction: column-reverse;
         }
         &__item-halfpic{
+            /* Блочная модель */
             width: 100% ;
             height: 35% ;
         }
         &__content-standart{
+            /* Блочная модель */
             width: 100% ;
             height: 100%;
         }
         &__title{
+            /* Блочная модель */
             width: 220px ;
+            /* Типография */
             font-size: 25px ;
             line-height: 27px ;
         }
         &__paragraph-standart{
+            /* Типография */
             font-size: 17px ;
             line-height: 17px ;
         }
@@ -227,26 +263,33 @@
 @media (max-width: 440px){
     .slide{
         &__item-standart{
+            /* Блочная модель */
             flex-direction: column-reverse;
         }
         &__item-halfpic{
+            /* Блочная модель */
             width: 100%;
             height: 35%;
         }
         &__content-standart{
+            /* Блочная модель */
             width: 100%;
             height: 100%;
         }
         &__title{
+            /* Блочная модель */
             width: 220px;
+            /* Типография */
             font-size: 25px;
             line-height: 27px;
         }
         &__paragraph-standart{
+            /* Типография */
             font-size: 14px ;
         }
         &__list{
             &-standart{
+                /* Типография */
                 font-size: 14px;
             }
         }
@@ -255,19 +298,23 @@
 
 @media (max-width: 380px){
     .slide{
+        /* Блочная модель */
         min-height: 100vh;
         max-height: 150vh;
         &__title{
+            /* Типография */
             font-size: 20px;
             line-height: 20px;
         }
         &__paragraph{
             &-standart{
+                /* Типография */
                 line-height: 15px;
                 font-size: 12px ;
             }
         }
         &__list-standart{
+            /* Типография */
             font-size: 13px ;
             line-height: 15px;
         }
@@ -277,16 +324,19 @@
 @media (max-width: 650px) and (min-height: 350px){
     .slide{
         &__title{
+            /* Типография */
             font-size: 24px;
             line-height: 26px;
         }
         &__paragraph{
             &-standart{
+                /* Типография */
                 line-height: 20px;
                 font-size: 12px ;
             }
         }
         &__list-standart{
+            /* Типография */
             line-height: 18px;
             font-size: 12px;
         }
@@ -304,6 +354,7 @@
             font-size: 13px ;
         }
         &__list-standart{
+            /* Типография */
             font-size: 12px;
             line-height: 16px;
         }
@@ -313,17 +364,20 @@
 @media (min-width: 566px) and (max-height: 370px){ // для iPhone5e горизонтально
     .slide{
         &__title{
+            /* Типография */
             font-size: 21px;
             line-height: 17px;
         }
         &__paragraph{
             &-standart{
+                /* Типография */
                 line-height: 11px;
                 font-size: 11px ;
                 
             }
         }
         &__list-standart{
+            /* Типография */
             font-size: 9px;
             line-height: 18px;
         }
@@ -334,6 +388,7 @@
     .slide{
         &__paragraph{
             &-standart{
+                /* Типография */
                 line-height: 18px;
                 font-size: 13px ;
             }
@@ -345,6 +400,7 @@
     .slide{
         &__paragraph{
             &-standart{
+                /* Типография */
                 line-height: 18px;
                 font-size: 13px ;
             }
@@ -356,6 +412,7 @@
     .slide{
         &__paragraph{
             &-standart{
+                /* Типография */
                 line-height: 18px;
                 font-size: 11px ;
             }
@@ -367,7 +424,7 @@
     .slide{
         &__paragraph{
             &-standart{
-                // line-height: 12px;
+                /* Типография */
                 font-size: 11px !important ;
             }
         }

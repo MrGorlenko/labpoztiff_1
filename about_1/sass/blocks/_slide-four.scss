@@ -1,6 +1,7 @@
 .slide__item-four{
     background: linear-gradient(180deg, rgba(146, 57, 144, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #FFFEFE;
     &-pic{
+        /* Оформление */
         background-image: url('../../img/forth-pic.jpg');
     }
 }
@@ -9,6 +10,7 @@
     .slide{
         &__title{
             &-four{
+                /* Блочная модель */
                 width: 390px;
             }
         }
@@ -19,6 +21,7 @@
     .slide{
         &__title{
             &-four{
+                /* Блочная модель */
                 width: 290px;
             }
         }
@@ -29,6 +32,7 @@
     .slide{
         &__item-four{
             &-pic{
+                /* Оформление */
                 background-position-y: -150px;
             }
         }

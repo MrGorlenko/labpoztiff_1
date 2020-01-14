@@ -49,7 +49,7 @@
             &-five{
                 width: 300px !important;
                 left: 25% !important;
-                top: 20px;
+                top: 40px;
             }
         }
         &__paragraph{
@@ -64,7 +64,7 @@
     .slide{
         &__title{
             &-five{
-                top: 0px;
+                top: 60px;
                 width: 220px !important;
                 font-size: 25px !important;
                 line-height: 27px !important;
@@ -128,6 +128,7 @@
     .slide{
         &__title{
             &-five{
+                top: 50px;
                 left: 15% !important;
                 font-size: 22px !important;
             }

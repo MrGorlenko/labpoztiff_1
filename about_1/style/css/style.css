@@ -697,6 +697,12 @@ template {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 992px) {
+  .slide__line_mobile {
+    display: none !important;
+  }
+}
+
 .slide__paragraph-standart {
   font-family: PT Serif;
   font-style: normal;
@@ -1074,7 +1080,7 @@ template {
   .slide__title-five {
     width: 300px !important;
     left: 25% !important;
-    top: 20px;
+    top: 40px;
   }
   .slide__paragraph-five {
     margin-top: 45px;
@@ -1083,7 +1089,7 @@ template {
 
 @media (max-width: 550px) {
   .slide__title-five {
-    top: 0px;
+    top: 60px;
     width: 220px !important;
     font-size: 25px !important;
     line-height: 27px !important;
@@ -1130,6 +1136,7 @@ template {
 
 @media (max-width: 370px) {
   .slide__title-five {
+    top: 50px;
     left: 15% !important;
     font-size: 22px !important;
   }

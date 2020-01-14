@@ -671,6 +671,9 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .slide__title {
@@ -717,6 +720,11 @@ template {
 .slide__list-standart-all {
   padding-left: 0;
   width: 75%;
+}
+
+.slide__subtitle-last {
+  font-size: 26px;
+  color: white;
 }
 
 @media (max-width: 992px) {

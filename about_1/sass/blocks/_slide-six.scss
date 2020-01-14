@@ -7,9 +7,9 @@
         width: 85%;
         justify-content: center;
     }
-    &__paragraph-six{
-        font-size: 22px;
-    }
+    // &__paragraph-six{
+    //     font-size: 22px;
+    // }
     &__line-six{
         &:first-child{
             margin-bottom: 40px;
@@ -20,16 +20,16 @@
     }
 }
 
-@media (max-width: 992px){
-    .slide{
-        &__paragraph{
-            &-six{
-                font-size: 18px;
-            }
+// @media (max-width: 992px){
+//     .slide{
+//         &__paragraph{
+//             &-six{
+//                 font-size: 18px;
+//             }
             
-        }
-    }
-}
+//         }
+//     }
+// }
 
 @media (max-width: 550px){
     .slide{
